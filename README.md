@@ -19,11 +19,12 @@ soon
 
 soon
 
-#### Properties
+### Properties
 
-| Prop | Type | Description |
+#### CardViewWithIcon
+| Prop | Type | Default | Description |
 |---|---|---|
-|**`soon`**|`soon`| soon |
+|**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |
 
 ### Examples
 
