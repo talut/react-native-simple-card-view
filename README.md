@@ -31,7 +31,7 @@ npm install react-native-simple-card-view
 
 ## Properties
 
-#### CardViewWithIcon [Show example](#cardviewwithicon-1))
+#### CardViewWithIcon ( [Show example](#cardviewwithicon))
 | Prop | Type | Default | Description |
 |---|---|---|---|
 |**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |
