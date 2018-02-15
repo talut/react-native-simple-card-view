@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import DYSCardView from './DYSCardView';
+import { DYSCardViewWithIcon } from './DYSCardView';
 
-AppRegistry.registerComponent('dyscardview', () => DYSCardView);
+AppRegistry.registerComponent('dyscardview', () => DYSCardViewWithIcon);
