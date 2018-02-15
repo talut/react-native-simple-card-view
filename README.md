@@ -6,6 +6,11 @@ Easiest way to add a card view on your screen.
 
 soon
 
+#### Overview
+
+[x] Soon
+[ ] Soon
+
 ### Prerequisites
 
 soon
