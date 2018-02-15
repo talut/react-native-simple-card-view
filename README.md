@@ -15,30 +15,36 @@ soon
 
 soon
 
-### Installation
+## Installation
 
-*via Yarn*
+**via Yarn**
 
 ```
 yarn add react-native-simple-card-view
 ```
 
-*via NPM*
+**via NPM**
 
 ```
 npm install react-native-simple-card-view
 ```
 
-### Properties
+## Properties
 
 #### CardViewWithIcon
 | Prop | Type | Default | Description |
 |---|---|---|---|
 |**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |
 
-### Examples
+## Examples
 
-### Roadmap
+**CardViewWithIcon**
+
+```jsx
+<CardViewWithIcon icon={'jet'} iconBgColor={'#5E35B1'} iconColor={'#FFFFFF'} title={'LOREM IPSUM'} content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}>
+```
+
+## Roadmap
 
 ## Built With
 
