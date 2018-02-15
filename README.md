@@ -52,9 +52,8 @@ title={'LOREM IPSUM'}
 content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
 />
 ```
-<div style="text-align:center">
+
 ![CardViewWithIcon Example](https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png)
-</div>
 
 ## Roadmap
 
