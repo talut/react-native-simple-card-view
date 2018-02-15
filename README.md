@@ -34,7 +34,6 @@ npm install react-native-simple-card-view
 #### CardViewWithIcon ( [Show example](#cardviewwithicon))
 | Prop | Type | Default | Description |
 |---|---|---|---|
-
 |**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |
 |**`iconColor`**|`string`| `#FFFFFF` | Icon color - (hex, rgba, rgb) |
 |**`withBorder`**|`boolean`| false | Add a border to icon |
@@ -58,7 +57,7 @@ content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
 />
 ```
 
-<div style="text-align:center"><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></div>
+<div style="text-align:center; "><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></div>
 
 ## Roadmap
 
