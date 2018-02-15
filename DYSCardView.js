@@ -75,10 +75,9 @@ class CardViewWithIcon extends React.Component {
               color={ this.props.iconColor }
             />
           </View>
-          <Text style={ title }>LOREM IPSUM</Text>
+          <Text style={ title }>{ this.props.title }</Text>
           <Text style={ plainText }>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque fugiat
-            fugit placeat repellendus.
+            { this.props.content }
           </Text>
         </View>
       </View>
@@ -99,7 +98,11 @@ CardViewWithIcon.defaultProps = {
   icon         : 'ios-bonfire-outline',
   iconBgColor  : '#3949AB',
   iconColor    : '#ffffff',
-  iconSize     : 40
+  iconSize     : 40,
+  // TITLE
+  title        : 'LOREM IPSUM',
+  // CONTENT
+  content      : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
 };
 
 CardViewWithIcon.propTypes = {
@@ -115,7 +118,13 @@ CardViewWithIcon.propTypes = {
   icon         : PropTypes.string,
   iconBgColor  : PropTypes.string,
   iconColor    : PropTypes.string,
-  iconSize     : PropTypes.number
+  iconSize     : PropTypes.number,
+  // TITLE
+  title        : PropTypes.string,
+  // CONTENT
+  content      : PropTypes.string,
+
+
 };
 
 export {

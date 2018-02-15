@@ -8,8 +8,8 @@ soon
 
 #### Overview
 
-[x] Soon
-[ ] Soon
+- [x] Soon
+- [ ] Soon
 
 ### Prerequisites
 
