@@ -35,13 +35,23 @@ npm install react-native-simple-card-view
 | Prop | Type | Default | Description |
 |---|---|---|---|
 |**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |
+|**`iconBgColor`**|`string`| `#5E35B1` | Icon background color - (hex, rgba, rgb)|
+|**`iconColor`**|`string`| `#FFFFFF` | Icon color - (hex, rgba, rgb) |
+|**`title`**|`string`| LOREM IPSUM | Card view title |
+|**`content`**|`string`| Lorem ipsum dolor sit amet | Card view content  |
 
 ## Examples
 
 **CardViewWithIcon**
 
 ```jsx
-<CardViewWithIcon icon={'jet'} iconBgColor={'#5E35B1'} iconColor={'#FFFFFF'} title={'LOREM IPSUM'} content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}>
+<CardViewWithIcon
+icon={'jet'}
+iconBgColor={'#5E35B1'}
+iconColor={'#FFFFFF'}
+title={'LOREM IPSUM'}
+content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+/>
 ```
 
 ## Roadmap
