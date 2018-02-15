@@ -23,7 +23,7 @@ soon
 
 #### CardViewWithIcon
 | Prop | Type | Default | Description |
-|---|---|---|
+|---|---|---|---|
 |**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |
 
 ### Examples
