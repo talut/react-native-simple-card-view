@@ -3,7 +3,7 @@ import { View, Dimensions, Text } from 'react-native';
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/Ionicons'
 
-class DYSCardViewWithIcon extends React.Component {
+class CardViewWithIcon extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -86,7 +86,7 @@ class DYSCardViewWithIcon extends React.Component {
   }
 }
 
-DYSCardViewWithIcon.defaultProps = {
+CardViewWithIcon.defaultProps = {
   elevation    : 3,
   padding      : 5,
   margin       : 10,
@@ -102,7 +102,7 @@ DYSCardViewWithIcon.defaultProps = {
   iconSize     : 40
 };
 
-DYSCardViewWithIcon.propTypes = {
+CardViewWithIcon.propTypes = {
   elevation    : PropTypes.number,
   padding      : PropTypes.number,
   margin       : PropTypes.number,
@@ -119,5 +119,5 @@ DYSCardViewWithIcon.propTypes = {
 };
 
 export {
-  DYSCardViewWithIcon
+  CardViewWithIcon
 }
