@@ -17,7 +17,8 @@ soon
 
 ### Installation
 
-soon
+*Yarn*
+`yarn add react-native-simple-card-view
 
 ### Properties
 
