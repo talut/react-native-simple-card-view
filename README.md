@@ -17,9 +17,17 @@ soon
 
 ### Installation
 
-*Yarn*
+*via Yarn*
 
-`yarn add react-native-simple-card-view`
+```
+yarn add react-native-simple-card-view
+```
+
+*via NPM*
+
+```
+npm install react-native-simple-card-view
+```
 
 ### Properties
 
