@@ -47,6 +47,8 @@ npm install react-native-simple-card-view
 ## Examples
 
 ##### CardViewWithIcon
+<p align="center"><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></p>
+
 ```jsx
 <CardViewWithIcon
 icon={'jet'}
@@ -55,10 +57,12 @@ iconColor={'#FFFFFF'}
 title={'LOREM IPSUM'}
 content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
 />
+
+#### CardViewWithImage
+
+soon
+
 ```
-
-<p align="center"><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></p>
-
 ## Roadmap
 
 ## Built With
