@@ -44,6 +44,12 @@ npm install react-native-simple-card-view
 |**`title`**|`string`| LOREM IPSUM | Card view title |
 |**`content`**|`string`| Lorem ipsum dolor sit amet | Card view content  |
 
+#### CardViewWithImage ( [Show example](#cardviewwithimage))
+| Prop | Type | Default | Description |
+|---|---|---|---|
+|**`soon`**|`soon`| soon | soon |
+
+
 ## Examples
 
 ##### CardViewWithIcon
@@ -57,12 +63,12 @@ iconColor={'#FFFFFF'}
 title={'LOREM IPSUM'}
 content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
 />
+```
 
-#### CardViewWithImage
+##### CardViewWithImage
 
 soon
 
-```
 ## Roadmap
 
 ## Built With
