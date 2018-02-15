@@ -57,7 +57,7 @@ content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
 />
 ```
 
-<div style="text-align:center; "><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></div>
+<p align="center"><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></p>
 
 ## Roadmap
 
