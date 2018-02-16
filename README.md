@@ -95,6 +95,11 @@ This component has a icon, title and content.
 ##### CardViewWithIcon
 <p align="center"><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></p>
 
+
+```jsx
+import { CardViewWithIcon } from 'react-native-simple-card-view'
+```
+
 ```jsx
             <CardViewWithIcon
               androidIcon={ 'md-bonfire' }
