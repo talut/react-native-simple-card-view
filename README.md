@@ -48,8 +48,11 @@ react-native link react-native-simple-card-view
 |**`shadowOffsetHeight`**|`number`| 3 | Only for iOS shadow offset height  |iOS|
 
 #### CardViewWithIcon ( [Show example](#cardviewwithicon))
+
+This component has a icon, title and content.
+
 <details>
-  <summary>CardViewWithIcon Attributes</summary>
+  <summary>Show CardViewWithIcon Attributes</summary>
 
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
