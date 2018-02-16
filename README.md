@@ -2,6 +2,9 @@
 
 Easiest way to add a card view on your screen.
 
+<p align="center"><img src="https://nodei.co/npm/react-native-simple-card-view.png?downloads=true&downloadRank=true&stars=true" alt="package info" /></p>
+
+
 ## Getting Started
 
 **via Yarn**
