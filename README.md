@@ -103,7 +103,10 @@ This component has a icon, title and content.
             />
 ```
 
-## Roadmap
+## TODO's
+
+  - Add shadow properties to icon
+  - Add touchable area (onPress etc.)
 
 ## Built With
 

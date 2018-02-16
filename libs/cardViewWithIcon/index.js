@@ -7,10 +7,6 @@ class CardViewWithIcon extends React.Component {
   constructor(props) {
     super(props)
   }
-
-  // TODO: 1: Simgeye gölge ekleme ve gölge props ayarları - waiting
-  // TODO: 2: Animasyon ekleme - waiting
-  // TODO: 5: Touchable area (onPress etc.) ekleme - waiting
   render() {
     const container = {
       shadowOffset   : {
@@ -86,7 +82,7 @@ CardViewWithIcon.defaultProps = {
     shadowOffsetHeight: 3,
     shadowOpacity     : 0.3,
     shadowRadius      : 3,
-    backgroundColor   : '#ffffff',
+    bgColor           : '#ffffff',
     padding           : 5,
     margin            : 10,
     borderRadius      : 3,
