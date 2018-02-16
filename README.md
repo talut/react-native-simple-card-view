@@ -1,4 +1,3 @@
-
 # React Native Simple Card View
 
 Easiest way to add a card view on your screen.
@@ -33,17 +32,20 @@ npm install react-native-simple-card-view
 ## Properties
 
 #### CardViewWithIcon ( [Show example](#cardviewwithicon))
-| Prop | Type | Default | Description |
-|---|---|---|---|
-|**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |
-|**`iconColor`**|`string`| `#FFFFFF` | Icon color - (hex, rgba, rgb) |
-|**`withBorder`**|`boolean`| false | Add a border to icon |
-|**`borderColor`**|`string`| - | Icon border color - (hex, rgba, rgb) |
-|**`borderWidth`**|`number`| - | Icon border width |
-|**`withBackround`**|`boolean`| true | Set background color for icon|
-|**`iconBgColor`**|`string`| `#5E35B1` | Icon background color - (hex, rgba, rgb)|
-|**`title`**|`string`| LOREM IPSUM | Card view title |
-|**`content`**|`string`| Lorem ipsum dolor sit amet | Card view content  |
+| Prop | Type | Default | Description | Platform |
+|---|---|---|---|---|
+|**`icon`**|`string`| bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |iOS,Android|
+|**`iconColor`**|`string`| `#FFFFFF` | Icon color - (hex, rgba, rgb) |iOS,Android|
+|**`withBorder`**|`boolean`| false | Add a border to icon |iOS,Android|
+|**`borderColor`**|`string`| - | Icon border color - (hex, rgba, rgb) |iOS,Android|
+|**`borderWidth`**|`number`| - | Icon border width |iOS,Android|
+|**`withBackground`**|`boolean`| true | Set background color for icon|iOS,Android|
+|**`iconBgColor`**|`string`| `#5E35B1` | Icon background color - (hex, rgba, rgb)|iOS,Android|
+|**`title`**|`string`| LOREM IPSUM | Card view title |iOS,Android|
+|**`content`**|`string`| Lorem ipsum dolor sit amet | Card view content  |iOS,Android|
+|**`elevation`**|`number`| 3 | Only for Android shadow value  |Android|
+|**`shadowOffsetWidth`**|`number`| 3 | Only for iOS shadow offset width  |iOS|
+|**`shadowOffsetHeight`**|`number`| 3 | Only for iOS shadow offset height  |iOS|
 
 #### CardViewWithImage ( [Show example](#cardviewwithimage))
 | Prop | Type | Default | Description |
