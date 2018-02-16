@@ -33,7 +33,8 @@ react-native link react-native-simple-card-view
 
 #### Styling card view
 
-You can create an object, who has the card view styles. Then you can add a props named style at simple card view component.
+You can create an object, who has the card view styles.
+Then you can give that object to style props. Card view style object can have the following attributes
 
 | Prop | Type | Default | Description | Platform |
 |---|---|---|---|---|

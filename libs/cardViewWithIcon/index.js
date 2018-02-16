@@ -7,10 +7,26 @@ class CardViewWithIcon extends React.Component {
   constructor(props) {
     super(props)
   }
+
   // TODO: 1: Simgeye gölge ekleme ve gölge props ayarları - waiting
   // TODO: 2: Animasyon ekleme - waiting
   // TODO: 5: Touchable area (onPress etc.) ekleme - waiting
   render() {
+    const style = {
+      shadowOffset   : {
+        width : Platform.OS === "ios" ? this.props.style.shadowOffsetWidth : 0,
+        height: Platform.OS === "ios" ? this.props.style.shadowOffsetWidth : 0,
+      },
+      backgroundColor: this.props.style.bgColor,
+      width          : this.props.style.width,
+      padding        : this.props.style.padding,
+      margin         : this.props.style.margin,
+      borderRadius   : this.props.style.borderRadius,
+      shadowColor    : this.props.style.shadowColor,
+      shadowOpacity  : this.props.style.shadowOpacity,
+      shadowRadius   : this.props.style.shadowRadius,
+      elevation      : Platform.OS === "android" ? this.props.style.elevation : 0,
+    };
     const icon = {
       margin         : this.props.iconMargin,
       borderWidth    : this.props.iconBorderWidth,
@@ -62,27 +78,21 @@ class CardViewWithIcon extends React.Component {
   }
 }
 
-const container = {
-  shadowOffset      : {
-    width : Platform.OS === "ios" ? 3 : 0,
-    height: Platform.OS === "ios" ? 3 : 0,
-  },
-  backgroundColor   : this.props.bgColor,
-  width             : 200,
-  padding           : 5,
-  margin            : 10,
-  borderRadius      : 3,
-  shadowColor       : '#000000',
-  shadowOpacity     : ``,
-  shadowRadius      : 3,
-  bgColor           : '#ffffff',
-  shadowOffsetWidth : 3,
-  shadowOffsetHeight: 3,
-  elevation         : Platform.OS === "android" ? 3 : 0,
-};
 
 CardViewWithIcon.defaultProps = {
-  style               : container,
+  style               : {
+    shadowColor       : '#000000',
+    shadowOffsetWidth : 3,
+    shadowOffsetHeight: 3,
+    shadowOpacity     : 0.3,
+    shadowRadius      : 3,
+    backgroundColor   : '#ffffff',
+    padding           : 5,
+    margin            : 10,
+    borderRadius      : 3,
+    width             : 300,
+    elevation         : 3,
+  },
   // ICON
   iosIcon             : 'ios-bonfire-outline',
   androidIcon         : 'md-bonfire',
@@ -112,6 +122,7 @@ CardViewWithIcon.defaultProps = {
   contentPaddingTop   : 0,
 };
 CardViewWithIcon.propTypes = {
+  style               : PropTypes.object,
   width               : PropTypes.number,
   height              : PropTypes.number,
   elevation           : PropTypes.number,
