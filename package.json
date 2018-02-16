@@ -1,24 +1,27 @@
 {
-  "name": "dyscardview",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+  "name": "react-native-simple-card-view",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talut/react-native-simple-card-view.git"
   },
+  "description": "Easiest way to add a card view on your screen.",
+  "keywords": [
+    "react-native",
+    "card-view"
+  ],
+  "main": "index.js",
+  "author": "Talut Tasgiran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talut/react-native-simple-card-view/issues"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "homepage": "https://github.com/talut/react-native-simple-card-view",
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react": "16.2.0",
-    "react-native": "0.53.0",
     "react-native-vector-icons": "^4.5.0"
-  },
-  "devDependencies": {
-    "babel-jest": "22.2.2",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "22.3.0",
-    "react-test-renderer": "16.2.0"
-  },
-  "jest": {
-    "preset": "react-native"
   }
 }
