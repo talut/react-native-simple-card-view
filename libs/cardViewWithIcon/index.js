@@ -7,6 +7,13 @@ class CardViewWithIcon extends React.Component {
   constructor(props) {
     super(props)
   }
+
+  // TODO : Add shadow properties to icon ☐
+  // TODO : Add touchable area (onPress etc.) ☐
+  // TODO : blba lbalbalblal - in process ♨
+  // TODO : Icon bg settings - done ☑
+
+
   render() {
     const container = {
       shadowOffset   : {
@@ -25,15 +32,15 @@ class CardViewWithIcon extends React.Component {
     };
     const icon = {
       margin         : this.props.iconMargin,
-      borderWidth    : this.props.iconBorderWidth,
-      borderColor    : this.props.iconBgColor,
-      borderRadius   : this.props.iconBorderRadius,
+      borderWidth    : this.props.withBorder ? this.props.iconBorderWidth : undefined,
+      borderColor    : this.props.withBorder ? this.props.iconBgColor : undefined,
+      borderRadius   : this.props.withBorder ? this.props.iconBorderRadius : undefined,
       width          : this.props.iconWidth,
       height         : this.props.iconHeight,
       alignSelf      : 'center',
       justifyContent : 'center',
       alignItems     : 'center',
-      backgroundColor: this.props.iconBgColor,
+      backgroundColor: this.props.withBackground ? this.props.iconBgColor : undefined,
     };
     const title = {
       alignSelf    : 'center',
@@ -100,6 +107,8 @@ CardViewWithIcon.defaultProps = {
   iconHeight          : 80,
   iconBorderRadius    : 40,
   iconBorderWidth     : 0.5,
+  withBackground      : true,
+  withBorder          : false,
   //TITLE
   titleTextAlign      : 'center',
   titleFontWeight     : 'bold',
@@ -142,6 +151,8 @@ CardViewWithIcon.propTypes = {
   iconHeight          : PropTypes.number,
   iconBorderRadius    : PropTypes.number,
   iconBorderWidth     : PropTypes.number,
+  withBackground      : PropTypes.bool,
+  withBorder          : PropTypes.bool,
   // TITLE
   title               : PropTypes.string,
   titleTextAlign      : PropTypes.string,
