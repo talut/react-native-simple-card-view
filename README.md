@@ -50,6 +50,7 @@ react-native link react-native-simple-card-view
 #### CardViewWithIcon ( [Show example](#cardviewwithicon))
 <details>
   <summary>CardViewWithIcon Attributes</summary>
+
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
   |**`iosIcon`**|`string`| ios-bonfire-outline | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |iOS|
@@ -75,6 +76,7 @@ react-native link react-native-simple-card-view
   |**`contentPaddingRight`**|`number`| 10 | Card view content  |iOS,Android|
   |**`contentPaddingBottom`**|`number`| 10 | Card view content  |iOS,Android|
   |**`contentPaddingTop`**|`number`| - | Card view content  |iOS,Android|
+
 </details>
 
 ## Examples
