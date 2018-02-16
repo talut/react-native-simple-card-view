@@ -34,8 +34,8 @@ react-native link react-native-simple-card-view
 #### Common Attributes
 | Prop | Type | Default | Description | Platform |
 |---|---|---|---|---|
-|**`width`**|`300`| auto | Card view width |iOS,Android|
-|**`height`**|`number`| auto | Card view height |iOS,Android|
+|**`width`**|`number`| 300 | Card view width |iOS,Android|
+|**`height`**|`number`| - | Card view height |iOS,Android|
 |**`padding`**|`number`| 5 | Card view padding |iOS,Android|
 |**`margin`**|`number`| 10 | Card view margin |iOS,Android|
 |**`borderRadius`**|`number`| 3 | Card view border radius|iOS,Android|
@@ -68,7 +68,8 @@ react-native link react-native-simple-card-view
 
 ```jsx
             <CardViewWithIcon
-              icon={ 'md-bonfire' }
+              androidIcon={ 'md-bonfire' }
+              iosIcon={ 'ios-bonfire-outline' }
               iconBgColor={ '#5E35B1' }
               iconColor={ '#FFFFFF' }
               title={ 'LOREM IPSUM' }
