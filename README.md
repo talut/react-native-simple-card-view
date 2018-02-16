@@ -31,7 +31,7 @@ react-native link react-native-simple-card-view
 - [x] CardViewWithIcon
 - [ ] CardViewWithImage
 - [ ] ArticleCardView
-- [ ] CardViewWithAnimation
+- [ ] CardViewWithAnimation or Adding animation support to CardViewWithIcon, CardViewWithImage, ArticleCardView
 
 ## Attributes
 
