@@ -6,14 +6,12 @@ Easiest way to add a card view on your screen.
 
 soon
 
-#### Overview
+#### Components
 
-- [x] Soon
-- [ ] Soon
-
-### Prerequisites
-
-soon
+- [x] CardViewWithIcon
+- [ ] CardViewWithImage
+- [ ] ArticleCardView
+- [ ] CardViewWithAnimation
 
 ## Installation
 
@@ -29,6 +27,12 @@ yarn add react-native-simple-card-view
 npm install react-native-simple-card-view
 ```
 
+**React-Native Link**
+
+```
+react-native link react-native-simple-card-view
+``
+
 ## Properties
 
 #### CardViewWithIcon ( [Show example](#cardviewwithicon))
@@ -41,8 +45,8 @@ npm install react-native-simple-card-view
 |**`borderWidth`**|`number`| - | Icon border width |iOS,Android|
 |**`withBackground`**|`boolean`| true | Set background color for icon|iOS,Android|
 |**`iconBgColor`**|`string`| `#5E35B1` | Icon background color - (hex, rgba, rgb)|iOS,Android|
-|**`title`**|`string`| LOREM IPSUM | Card view title |iOS,Android|
-|**`content`**|`string`| Lorem ipsum dolor sit amet | Card view content  |iOS,Android|
+|**`title`**|`string`| - | Card view title |iOS,Android|
+|**`content`**|`string`| - | Card view content  |iOS,Android|
 |**`elevation`**|`number`| 3 | Only for Android shadow value  |Android|
 |**`shadowOffsetWidth`**|`number`| 3 | Only for iOS shadow offset width  |iOS|
 |**`shadowOffsetHeight`**|`number`| 3 | Only for iOS shadow offset height  |iOS|

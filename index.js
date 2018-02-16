@@ -1,4 +1,5 @@
-import { AppRegistry } from 'react-native';
-import { CardViewWithIcon } from './SimpleCardView';
+import CardViewWithIcon from './libs/cardViewWithIcon';
 
-AppRegistry.registerComponent('dyscardview', () => CardViewWithIcon);
+export {
+  CardViewWithIcon
+};
