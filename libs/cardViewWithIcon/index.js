@@ -7,26 +7,10 @@ class CardViewWithIcon extends React.Component {
   constructor(props) {
     super(props)
   }
-
   // TODO: 1: Simgeye gölge ekleme ve gölge props ayarları - waiting
   // TODO: 2: Animasyon ekleme - waiting
   // TODO: 5: Touchable area (onPress etc.) ekleme - waiting
   render() {
-    const container = {
-      shadowColor    : this.props.shadowColor,
-      shadowOffset   : {
-        width : Platform.OS === "ios" ? this.props.shadowOffsetWidth : 0,
-        height: Platform.OS === "ios" ? this.props.shadowOffsetHeight : 0,
-      },
-      shadowOpacity  : this.props.shadowOpacity,
-      shadowRadius   : this.props.shadowRadius,
-      backgroundColor: this.props.bgColor,
-      padding        : this.props.padding,
-      margin         : this.props.margin,
-      borderRadius   : this.props.borderRadius,
-      width          : this.props.width,
-      elevation      : Platform.OS === "android" ? this.props.elevation : 0,
-    };
     const icon = {
       margin         : this.props.iconMargin,
       borderWidth    : this.props.iconBorderWidth,
@@ -60,48 +44,45 @@ class CardViewWithIcon extends React.Component {
     };
 
     return (
-      <View style={ {
-        backgroundColor: '#F5F5F5',
-        paddingTop     : 40,
-        height         : Dimensions.get('window').height,
-        flex           : 1,
-        flexDirection  : 'row',
-        justifyContent : 'space-between',
-        alignItems     : 'flex-start',
-        alignContent   : 'flex-start',
-        flexWrap       : 'wrap'
-      } }>
-        <View style={ container }>
-          <View style={ icon }>
-            <Icon
-              style={ {
-                textAlign: 'center',
-              } }
-              name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
-              size={ this.props.iconSize }
-              color={ this.props.iconColor }
-            />
-          </View>
-          { this.props.title !== undefined ? <Text style={ title }>{ this.props.title }</Text> : undefined }
-          { this.props.content !== undefined ? <Text style={ plainText }>{ this.props.content }</Text> : undefined }
+      <View style={ this.props.container }>
+        <View style={ icon }>
+          <Icon
+            style={ {
+              textAlign: 'center',
+            } }
+            name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
+            size={ this.props.iconSize }
+            color={ this.props.iconColor }
+          />
         </View>
+        { this.props.title !== undefined ? <Text style={ title }>{ this.props.title }</Text> : undefined }
+        { this.props.content !== undefined ? <Text style={ plainText }>{ this.props.content }</Text> : undefined }
       </View>
     );
   }
 }
 
+const container = {
+  shadowOffset      : {
+    width : Platform.OS === "ios" ? 3 : 0,
+    height: Platform.OS === "ios" ? 3 : 0,
+  },
+  backgroundColor   : this.props.bgColor,
+  width             : 200,
+  padding           : 5,
+  margin            : 10,
+  borderRadius      : 3,
+  shadowColor       : '#000000',
+  shadowOpacity     : ``,
+  shadowRadius      : 3,
+  bgColor           : '#ffffff',
+  shadowOffsetWidth : 3,
+  shadowOffsetHeight: 3,
+  elevation         : Platform.OS === "android" ? 3 : 0,
+};
+
 CardViewWithIcon.defaultProps = {
-  width               : 200,
-  padding             : 5,
-  margin              : 10,
-  borderRadius        : 3,
-  shadowColor         : '#000000',
-  shadowOpacity       : ``,
-  shadowRadius        : 3,
-  bgColor             : '#ffffff',
-  shadowOffsetWidth   : 3,
-  shadowOffsetHeight  : 3,
-  elevation           : 3,
+  style               : container,
   // ICON
   iosIcon             : 'ios-bonfire-outline',
   androidIcon         : 'md-bonfire',
