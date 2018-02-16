@@ -77,7 +77,7 @@ class CardViewWithIcon extends React.Component {
               style={ {
                 textAlign: 'center',
               } }
-              name={ this.props.icon }
+              name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
               size={ this.props.iconSize }
               color={ this.props.iconColor }
             />
@@ -91,19 +91,20 @@ class CardViewWithIcon extends React.Component {
 }
 
 CardViewWithIcon.defaultProps = {
-  width               : '100%',
-  elevation           : 3,
+  width               : 200,
   padding             : 5,
   margin              : 10,
   borderRadius        : 3,
   shadowColor         : '#000000',
-  shadowOpacity       : 0.3,
+  shadowOpacity       : ``,
   shadowRadius        : 3,
   bgColor             : '#ffffff',
   shadowOffsetWidth   : 3,
   shadowOffsetHeight  : 3,
+  elevation           : 3,
   // ICON
-  icon                : 'ios-bonfire-outline',
+  iosIcon             : 'ios-bonfire-outline',
+  androidIcon         : 'md-bonfire',
   iconBgColor         : '#3949AB',
   iconColor           : '#ffffff',
   iconSize            : 40,
@@ -131,6 +132,7 @@ CardViewWithIcon.defaultProps = {
 };
 CardViewWithIcon.propTypes = {
   width               : PropTypes.number,
+  height              : PropTypes.number,
   elevation           : PropTypes.number,
   padding             : PropTypes.number,
   margin              : PropTypes.number,
@@ -142,7 +144,8 @@ CardViewWithIcon.propTypes = {
   shadowOffsetHeight  : PropTypes.number,
   bgColor             : PropTypes.string,
   // ICON
-  icon                : PropTypes.string,
+  iosIcon             : PropTypes.string,
+  androidIcon         : PropTypes.string,
   iconBgColor         : PropTypes.string,
   iconColor           : PropTypes.string,
   iconSize            : PropTypes.number,

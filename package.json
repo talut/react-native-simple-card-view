@@ -22,11 +22,6 @@
   "homepage": "https://github.com/talut/react-native-simple-card-view",
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react": "16.2.0",
-    "react-native": "0.53.0",
     "react-native-vector-icons": "^4.5.0"
-  },
-  "devDependencies": {
-    "prop-types": "^15.6.0"
   }
 }
