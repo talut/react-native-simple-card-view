@@ -12,7 +12,7 @@ class CardViewWithIcon extends React.Component {
   // TODO: 2: Animasyon ekleme - waiting
   // TODO: 5: Touchable area (onPress etc.) ekleme - waiting
   render() {
-    const style = {
+    const container = {
       shadowOffset   : {
         width : Platform.OS === "ios" ? this.props.style.shadowOffsetWidth : 0,
         height: Platform.OS === "ios" ? this.props.style.shadowOffsetWidth : 0,
@@ -60,7 +60,7 @@ class CardViewWithIcon extends React.Component {
     };
 
     return (
-      <View style={ this.props.container }>
+      <View style={ container }>
         <View style={ icon }>
           <Icon
             style={ {
