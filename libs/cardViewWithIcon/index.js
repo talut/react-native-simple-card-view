@@ -9,8 +9,6 @@ class CardViewWithIcon extends React.Component {
   }
 
   // TODO : Add shadow properties to icon - in process ♨
-  // TODO : Add touchable area (onPress etc.)  - done ☑
-
 
   render() {
     const container = {
