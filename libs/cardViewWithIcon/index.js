@@ -57,13 +57,26 @@ class CardViewWithIcon extends React.Component {
       paddingBottom: this.props.contentPaddingBottom,
       paddingTop   : this.props.contentPaddingTop,
     };
+    const iconStyle = {
+      shadowColor  : this.props.iconStyle.shadowColor,
+      shadowOpacity: this.props.iconStyle.shadowOpacity,
+      shadowRadius : this.props.iconStyle.shadowRadius,
+      shadowOffset : {
+        width : Platform.OS === "ios" ? this.props.iconStyle.shadowOffsetWidth : 0,
+        height: Platform.OS === "ios" ? this.props.iconStyle.shadowOffsetWidth : 0,
+      },
+      elevation    : Platform.OS === "android" ? this.props.iconStyle.elevation : 0,
+    };
 
     const cardContent = <View>
       <View style={ icon }>
         <Icon
-          style={ {
-            textAlign: 'center',
-          } }
+          style={ [
+            {
+              textAlign: 'center',
+            },
+            iconStyle
+          ] }
           name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
           size={ this.props.iconSize }
           color={ this.props.iconColor }
@@ -154,6 +167,7 @@ CardViewWithIcon.propTypes = {
   shadowOffsetHeight  : PropTypes.number,
   bgColor             : PropTypes.string,
   // ICON
+  iconStyle           : PropTypes.object,
   iosIcon             : PropTypes.string,
   androidIcon         : PropTypes.string,
   iconBgColor         : PropTypes.string,
