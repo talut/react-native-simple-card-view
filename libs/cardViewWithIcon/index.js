@@ -110,7 +110,7 @@ CardViewWithIcon.defaultProps = {
   // ICON
   iosIcon             : 'ios-bonfire-outline',
   androidIcon         : 'md-bonfire',
-  iconBgColor         : '#3949AB',
+  iconBgColor         : '#b13757',
   iconColor           : '#ffffff',
   roundedIconBg       : true,
   iconSize            : 40,
