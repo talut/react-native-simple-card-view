@@ -98,7 +98,7 @@ This component has a icon, title and content.
 ## Examples
 
 ##### CardViewWithIcon
-<p align="center"><img width="200" height="300" src="https://s9.postimg.org/4hla2xvlb/Card_View_With_Icon.png" alt="CardViewWithIcon Example" /></p>
+<p align="center"><img width="300" height="400" src="https://postimg.org/image/tsxuiasob/" alt="CardViewWithIcon Example" /></p>
 
 
 ```jsx
@@ -109,10 +109,9 @@ import { CardViewWithIcon } from 'react-native-simple-card-view'
             <CardViewWithIcon
               androidIcon={ 'md-bonfire' }
               iosIcon={ 'ios-bonfire-outline' }
-              iconBgColor={ '#5E35B1' }
+              iconBgColor={ '#b13757' }
               iconColor={ '#FFFFFF' }
               title={ 'LOREM IPSUM' }
-              width={ Dimensions.get("window").width / 2 }
               content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
             />
 ```
