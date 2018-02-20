@@ -122,7 +122,7 @@ import { CardViewWithIcon } from 'react-native-simple-card-view'
 
 ## TODO's
 
-  - Add shadow properties to icon - in process ♨
+  - CardViewWithImage - in process ♨
 
 ## Built With
 
