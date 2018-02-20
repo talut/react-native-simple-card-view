@@ -9,8 +9,6 @@ class CardViewWithIcon extends React.Component {
   }
 
   // TODO : Add shadow properties to icon - in process ♨
-  // TODO : Add touchable area (onPress etc.)  - done ☑
-
 
   render() {
     const container = {
@@ -32,7 +30,7 @@ class CardViewWithIcon extends React.Component {
       margin         : this.props.iconMargin,
       borderWidth    : this.props.withBorder ? this.props.iconBorderWidth : undefined,
       borderColor    : this.props.withBorder ? this.props.iconBgColor : undefined,
-      borderRadius   : this.props.withBorder ? this.props.iconBorderRadius : undefined,
+      borderRadius   : this.props.roundedIconBg ? this.props.iconBorderRadius : undefined,
       width          : this.props.iconWidth,
       height         : this.props.iconHeight,
       alignSelf      : 'center',
@@ -60,24 +58,37 @@ class CardViewWithIcon extends React.Component {
       paddingTop   : this.props.contentPaddingTop,
     };
 
-    return (
-      <View style={ container }>
-        <TouchableOpacity onPress={ this.props.onPress }>
-          <View style={ icon }>
-            <Icon
-              style={ {
-                textAlign: 'center',
-              } }
-              name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
-              size={ this.props.iconSize }
-              color={ this.props.iconColor }
-            />
-          </View>
-          { this.props.title !== undefined ? <Text style={ title }>{ this.props.title }</Text> : undefined }
-          { this.props.content !== undefined ? <Text style={ plainText }>{ this.props.content }</Text> : undefined }
-        </TouchableOpacity>
+    const cardContent = <View>
+      <View style={ icon }>
+        <Icon
+          style={ {
+            textAlign: 'center',
+          } }
+          name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
+          size={ this.props.iconSize }
+          color={ this.props.iconColor }
+        />
       </View>
-    );
+      { this.props.title !== undefined ? <Text style={ title }>{ this.props.title }</Text> : undefined }
+      { this.props.content !== undefined ? <Text style={ plainText }>{ this.props.content }</Text> : undefined }
+    </View>;
+
+    if (this.props.onPress !== undefined) {
+      return (
+        <View style={ container }>
+          <TouchableOpacity onPress={ this.props.onPress }>
+            { cardContent }
+          </TouchableOpacity>
+        </View>
+      );
+    } else {
+      return (
+        <View style={ container }>
+          { cardContent }
+        </View>
+      );
+    }
+
   }
 }
 
@@ -101,6 +112,7 @@ CardViewWithIcon.defaultProps = {
   androidIcon         : 'md-bonfire',
   iconBgColor         : '#3949AB',
   iconColor           : '#ffffff',
+  roundedIconBg       : true,
   iconSize            : 40,
   iconMargin          : 15,
   iconWidth           : 80,
@@ -154,6 +166,7 @@ CardViewWithIcon.propTypes = {
   iconBorderWidth     : PropTypes.number,
   withBackground      : PropTypes.bool,
   withBorder          : PropTypes.bool,
+  roundedIconBg       : PropTypes.bool,
   // TITLE
   title               : PropTypes.string,
   titleTextAlign      : PropTypes.string,

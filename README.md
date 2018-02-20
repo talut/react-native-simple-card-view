@@ -70,6 +70,7 @@ This component has a icon, title and content.
   |**`androidIcon`**|`string`| md-bonfire | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |Android|
   |**`iconColor`**|`string`| `#FFFFFF` | Icon color - (hex, rgba, rgb) |iOS,Android|
   |**`withBorder`**|`boolean`| false | Add a border to icon |iOS,Android|
+  |**`roundedIconBg`**|`boolean`| true | For making rounded background  |iOS,Android|
   |**`borderColor`**|`string`| - | Icon border color - (hex, rgba, rgb) |iOS,Android|
   |**`borderWidth`**|`number`| - | Icon border width |iOS,Android|
   |**`withBackground`**|`boolean`| true | Set background color for icon|iOS,Android|
