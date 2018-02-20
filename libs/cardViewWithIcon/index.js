@@ -62,7 +62,7 @@ class CardViewWithIcon extends React.Component {
 
     return (
       <View style={ container }>
-        <TouchableOpacity style={ {width: '100&', height: '100%'} } onPress={ this.props.onPress }>
+        <TouchableOpacity onPress={ this.props.onPress }>
           <View style={ icon }>
             <Icon
               style={ {
