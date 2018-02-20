@@ -92,39 +92,13 @@ This component has a icon, title and content.
   |**`contentPaddingTop`**|`number`| - | Card view content padding top props  |iOS,Android|
   |**`onPress`**|`func`| - | onPress function |iOS,Android|
 
-<details>
-  <summary>Adding shadow to Icon</summary>
-  
-  **Usage**
-  ```
-  iconStyle={
-        shadowColor  : '#212121',
-        shadowOpacity: 0.1,
-        shadowRadius : 0.3,
-        shadowOffsetWidth: 3,
-        shadowOffsetHeight: 2,
-        elevation    : 3,
-  }
-  ```
-
-  | Prop | Type | Default | Description | Platform |
-  |---|---|---|---|---|
-|**`shadowColor`**|`string`| - | icon shadow color |iOS,Android|
-|**`shadowOpacity`**|`number`|-| icon shadow opacity |iOS,Android|
-|**`shadowRadius`**|`number`| - | icon shadow radius |iOS,Android|
-|**`elevation`**|`number`| - | iconOnly for Android shadow value  |Android|
-|**`shadowOffsetWidth`**|`number`| -| Only for iOS shadow offset width  |iOS|
-|**`shadowOffsetHeight`**|`number`| - | Only for iOS shadow offset height  |iOS|
-
-</details>
-
 </details>
 
 
 ## Examples
 
 ##### CardViewWithIcon
-<p align="center"><img width="300" height="400" src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithIcon Example" /></p>
+<p align="center"><img width="300" height="400" src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithIcon Example" /><img width="400" height="700" src="https://i.lensdump.com/i/hQdxa.gif" alt="CardViewWithIcon Example" /></p>
 
 
 ```jsx
