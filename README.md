@@ -2,7 +2,7 @@
 
 Easiest way to adding a card view on your screen.
 
-- *Hey, v0.1.3 is now released. You can use onPress for CardViewWithIcon*
+- *Hey, v0.1.0 is now released. You can use onPress for CardViewWithIcon*
 
 <p align="center"><img src="https://nodei.co/npm/react-native-simple-card-view.png?downloads=true&downloadRank=true&stars=true" alt="package info" /></p>
 
@@ -91,9 +91,35 @@ This component has a icon, title and content.
   |**`contentPaddingBottom`**|`number`| 10 | Card view content padding bottom  |iOS,Android|
   |**`contentPaddingTop`**|`number`| - | Card view content padding top props  |iOS,Android|
   |**`onPress`**|`func`| - | onPress function |iOS,Android|
+
+<details>
+  <summary>Adding shadow to Icon</summary>
   
+  **Usage**
+  ```
+  iconStyle={
+        shadowColor  : '#212121',
+        shadowOpacity: 0.1,
+        shadowRadius : 0.3,
+        shadowOffsetWidth: 3,
+        shadowOffsetHeight: 2,
+        elevation    : 3,
+  }
+  ```
+
+  | Prop | Type | Default | Description | Platform |
+  |---|---|---|---|---|
+|**`shadowColor`**|`string`| - | icon shadow color |iOS,Android|
+|**`shadowOpacity`**|`number`|-| icon shadow opacity |iOS,Android|
+|**`shadowRadius`**|`number`| - | icon shadow radius |iOS,Android|
+|**`elevation`**|`number`| - | iconOnly for Android shadow value  |Android|
+|**`shadowOffsetWidth`**|`number`| -| Only for iOS shadow offset width  |iOS|
+|**`shadowOffsetHeight`**|`number`| - | Only for iOS shadow offset height  |iOS|
 
 </details>
+
+</details>
+
 
 ## Examples
 
