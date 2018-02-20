@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Dimensions, Text, Platform } from 'react-native';
+import { View, Dimensions, Text, Platform, TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/Ionicons'
 
@@ -8,10 +8,8 @@ class CardViewWithIcon extends React.Component {
     super(props)
   }
 
-  // TODO : Add shadow properties to icon ☐
-  // TODO : Add touchable area (onPress etc.) ☐
-  // TODO : blba lbalbalblal - in process ♨
-  // TODO : Icon bg settings - done ☑
+  // TODO : Add shadow properties to icon - in process ♨
+  // TODO : Add touchable area (onPress etc.)  - done ☑
 
 
   render() {
@@ -64,18 +62,20 @@ class CardViewWithIcon extends React.Component {
 
     return (
       <View style={ container }>
-        <View style={ icon }>
-          <Icon
-            style={ {
-              textAlign: 'center',
-            } }
-            name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
-            size={ this.props.iconSize }
-            color={ this.props.iconColor }
-          />
-        </View>
-        { this.props.title !== undefined ? <Text style={ title }>{ this.props.title }</Text> : undefined }
-        { this.props.content !== undefined ? <Text style={ plainText }>{ this.props.content }</Text> : undefined }
+        <TouchableOpacity style={ {width: '100&', height: '100%'} } onPress={ this.props.onPress }>
+          <View style={ icon }>
+            <Icon
+              style={ {
+                textAlign: 'center',
+              } }
+              name={ Platform.OS === "android" ? this.props.androidIcon : this.props.iosIcon }
+              size={ this.props.iconSize }
+              color={ this.props.iconColor }
+            />
+          </View>
+          { this.props.title !== undefined ? <Text style={ title }>{ this.props.title }</Text> : undefined }
+          { this.props.content !== undefined ? <Text style={ plainText }>{ this.props.content }</Text> : undefined }
+        </TouchableOpacity>
       </View>
     );
   }
@@ -127,6 +127,7 @@ CardViewWithIcon.defaultProps = {
   contentPaddingTop   : 0,
 };
 CardViewWithIcon.propTypes = {
+  onPress             : PropTypes.func,
   style               : PropTypes.object,
   width               : PropTypes.number,
   height              : PropTypes.number,

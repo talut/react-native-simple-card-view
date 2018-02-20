@@ -2,6 +2,8 @@
 
 Easiest way to adding a card view on your screen.
 
+ * Hey, v0.1.0 is now release you can use onPress for CardViewWithIcon
+
 <p align="center"><img src="https://nodei.co/npm/react-native-simple-card-view.png?downloads=true&downloadRank=true&stars=true" alt="package info" /></p>
 
 [![GitHub stars](https://img.shields.io/github/stars/talut/react-native-simple-card-view.svg?style=social&label=Stars&style=flat-square)](https://github.com/talut/react-native-simple-card-view)
@@ -111,11 +113,13 @@ import { CardViewWithIcon } from 'react-native-simple-card-view'
               content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
             />
 ```
+## v0.1.0 Features
+
+- Touchable area (onPress) for CardViewWithIcon - done ☑
 
 ## TODO's
 
-  - Add shadow properties to icon
-  - Add touchable area (onPress etc.)
+  - Add shadow properties to icon - in process ♨
 
 ## Built With
 
