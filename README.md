@@ -112,9 +112,9 @@ This component has an image, title and content. Also image can be rounded, full 
 
 ## Examples
 
-##### CardViewWithIcon
-<p align="center"><img width="300" height="400" src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithIcon Example" /><img width="400" height="700" src="https://i.lensdump.com/i/hQdxa.gif" alt="CardViewWithIcon Example" /></p>
+<details><summary><b>CardViewWithIcon</b></summary>
 
+<p align="center"><img width="300" height="400" src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithIcon Example" /><img width="400" height="700" src="https://i.lensdump.com/i/hQdxa.gif" alt="CardViewWithIcon Example" /></p>
 
 ```jsx
 import { CardViewWithIcon } from 'react-native-simple-card-view'
@@ -130,6 +130,8 @@ import { CardViewWithIcon } from 'react-native-simple-card-view'
               content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
             />
 ```
+
+</details>
 
 <details><summary><b>CardViewWithImage</b></summary>
 
