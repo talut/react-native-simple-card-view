@@ -131,11 +131,9 @@ import { CardViewWithIcon } from 'react-native-simple-card-view'
             />
 ```
 
-<details><summary>
+<details><summary><b>CardViewWithImage</b></summary>
 
-##### CardViewWithImage
-  </summary>
-<p align="center"><img width="350" height="700" src="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png" alt="CardViewWithImage Example" /></p>
+[![CardViewWithImage Example](https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png)](https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png)
 
 ```jsx
 import { CardViewWithImage } from 'react-native-simple-card-view'
