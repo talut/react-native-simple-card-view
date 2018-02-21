@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Dimensions, Text, Platform, TouchableOpacity } from 'react-native';
+import { View, Dimensions, Text, Platform, TouchableOpacity, Image } from 'react-native';
 import PropTypes from 'prop-types'
 
 class CardViewWithImage extends Component {
