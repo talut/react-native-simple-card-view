@@ -2,7 +2,7 @@
 
 Easiest way to adding a card view on your screen.
 
-- *Hey, v0.1.0 is now released. You can use onPress for CardViewWithIcon*
+- *Hey, v0.2.0 is now released. You can use new component : CardViewWithImage*
 
 <p align="center"><img src="https://nodei.co/npm/react-native-simple-card-view.png?downloads=true&downloadRank=true&stars=true" alt="package info" /></p>
 
@@ -25,14 +25,15 @@ npm install react-native-simple-card-view
 **React-Native Link**
 
 ```
-react-native link react-native-simple-card-view
+react-native link
+
 ```
 
 #### Components
 
 - [x] CardViewWithIcon
-- [ ] CardViewWithImage
-- [ ] ArticleCardView
+- [x] CardViewWithImage
+- [ ] CardView (Place your component to inside of CardView)
 - [ ] CardViewWithAnimation or Adding animation support to CardViewWithIcon, CardViewWithImage, ArticleCardView
 
 ## Attributes
@@ -95,10 +96,25 @@ This component has a icon, title and content.
 </details>
 
 
+#### CardViewWithImage ( [Show example](#cardviewwithimage))
+
+This component has an image, title and content. Also image can be rounded, full width.
+
+<details>
+  <summary>Show CardViewWithImage Attributes</summary>
+
+  | Prop | Type | Default | Description | Platform |
+  |---|---|---|---|---|
+  |**`onPress`**|`func`| - | onPress function |iOS,Android|
+
+</details>
+
+
 ## Examples
 
 ##### CardViewWithIcon
 <p align="center"><img width="300" height="400" src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithIcon Example" /><img width="400" height="700" src="https://i.lensdump.com/i/hQdxa.gif" alt="CardViewWithIcon Example" /></p>
+<p align="center"><img width="300" height="400" src="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png" alt="CardViewWithImage Example" /></p>
 
 
 ```jsx
@@ -115,6 +131,48 @@ import { CardViewWithIcon } from 'react-native-simple-card-view'
               content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
             />
 ```
+
+##### CardViewWithImage
+<p align="center"><img width="300" height="400" src="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png" alt="CardViewWithImage Example" /></p>
+
+
+```jsx
+import { CardViewWithImage } from 'react-native-simple-card-view'
+```
+
+```jsx
+          <CardViewWithImage
+            width={ (Dimensions.get('window').width / 2) - 20 }
+            source={ {uri: 'https://placeimg.com/640/480/nature'} }
+            content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
+            title={ 'React Nature :D' }
+            imageWidth={ '100%' }
+            imageHeight={ 100 }
+            roundedImage={ false }
+          />
+          <CardViewWithImage
+            width={ (Dimensions.get('window').width / 2) - 20 }
+            content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
+            source={ {uri: 'https://placeimg.com/640/480/tech'} }
+            title={ 'Hello World!' }
+            imageWidth={ 100 }
+            imageHeight={ 100 }
+            roundedImage={ true }
+            roundedImageValue={ 50 }
+            imageShadow={ true }
+            imageMargin={ {top: 10} }
+          />
+          <CardViewWithImage
+            width={ Dimensions.get('window').width - 20 }
+            source={ {uri: 'https://placeimg.com/640/480/people'} }
+            content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in !' }
+            title={ 'Hello World!' }
+            imageHeight={ 200 }
+            roundedImage={ false }
+            imageShadow={ true }
+          />
+```
+
 ## v0.1.3 Features
 
 - Touchable area (onPress) for CardViewWithIcon - done ☑

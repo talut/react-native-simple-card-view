@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 
 class CardViewWithImage extends Component {
 
+  // TODO: button olayını geliştir
   render() {
     const container = {
       overflow    : 'hidden',
@@ -41,7 +42,6 @@ class CardViewWithImage extends Component {
       paddingTop   : this.props.buttonPaddingTop,
     };
 
-    const imageShadowStyle = {}
     return (
       <View style={ {
         margin         : this.props.style.margin,
@@ -72,7 +72,8 @@ class CardViewWithImage extends Component {
               marginRight : this.props.imageMargin.right,
               marginLeft  : this.props.imageMargin.left,
             } }
-            source={ {uri: 'https://placeimg.com/640/480/animals'} }/> : this.props.imageComponent }
+            source={ this.props.source }
+          /> : this.props.imageComponent }
           { this.props.title !== undefined ? <Text style={ titleStyle }>{ this.props.title }</Text> : undefined }
           { this.props.content !== undefined ? <Text style={ contentStyle }>{ this.props.content }</Text> : undefined }
           { this.props.buttonComponent }
