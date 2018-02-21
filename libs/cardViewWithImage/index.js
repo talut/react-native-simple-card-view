@@ -33,7 +33,21 @@ class CardViewWithImage extends Component {
   }
 }
 
-CardViewWithImage.defaultProps = {};
+CardViewWithImage.defaultProps = {
+  style: {
+    shadowColor       : '#000000',
+    shadowOffsetWidth : 3,
+    shadowOffsetHeight: 3,
+    shadowOpacity     : 0.3,
+    shadowRadius      : 3,
+    bgColor           : '#ffffff',
+    padding           : 5,
+    margin            : 10,
+    borderRadius      : 3,
+    width             : 300,
+    elevation         : 3,
+  },
+};
 CardViewWithImage.propTypes = {
   style: PropTypes.object,
 };
