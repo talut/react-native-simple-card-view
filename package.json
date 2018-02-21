@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-card-view",
-  "version": "0.1.31",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/talut/react-native-simple-card-view.git"
@@ -8,7 +8,10 @@
   "description": "Easiest way to add a card view on your screen.",
   "keywords": [
     "react-native",
-    "card-view"
+    "card-view",
+    "card-view-icon",
+    "react-native-card",
+    "card"
   ],
   "main": "index.js",
   "author": "Talut Tasgiran",
