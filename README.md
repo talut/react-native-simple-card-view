@@ -100,6 +100,8 @@ This component has a icon, title and content.
 
 This component has an image, title and content. Also image can be rounded, full width.
 
+```
+
 <details>
   <summary>Show CardViewWithImage Attributes</summary>
 
@@ -109,6 +111,7 @@ This component has an image, title and content. Also image can be rounded, full 
 
 </details>
 
+```
 
 ## Examples
 
