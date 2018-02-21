@@ -4,7 +4,7 @@ Easiest way to adding a card view on your screen.
 
 - *Hey, v0.2.0 is now released. You can use new component : CardViewWithImage*
 
-<p align="center"><img src="https://nodei.co/npm/react-native-simple-card-view.png?downloads=true&downloadRank=true&stars=true" alt="package info" /></p>
+<p align="center"><a href="https://www.npmjs.com/package/react-native-simple-card-view" target="_blank"><img src="https://nodei.co/npm/react-native-simple-card-view.png?downloads=true&downloadRank=true&stars=true" alt="package info" /></a></p>
 
 [![GitHub stars](https://img.shields.io/github/stars/talut/react-native-simple-card-view.svg?style=social&label=Stars&style=flat-square)](https://github.com/talut/react-native-simple-card-view)
 
@@ -100,18 +100,16 @@ This component has a icon, title and content.
 
 This component has an image, title and content. Also image can be rounded, full width.
 
-```
+<details><summary><b>Show CardViewWithImage Attributes</b></summary>
 
-<details>
-  <summary>Show CardViewWithImage Attributes</summary>
+- updated.....
 
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
-  |**`onPress`**|`func`| - | onPress function |iOS,Android|
+  |**`imageComponent`**|`object`| - | You can place easily your own image component |iOS,Android|
 
 </details>
 
-```
 
 ## Examples
 
