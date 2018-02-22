@@ -98,7 +98,7 @@ This component has a icon, title and content.
 
 #### CardViewWithImage ( [Show example](#cardviewwithimage))
 
-[Go to the CardViewWithImage documentation]()
+[Go to the CardViewWithImage documentation](/docs/cardviewwithicon.md)
 
 ## Examples
 

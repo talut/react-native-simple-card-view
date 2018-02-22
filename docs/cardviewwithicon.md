@@ -2,10 +2,6 @@
 
 This component has a icon, title and content.
 
-
-<details>
-<summary><b>CardViewWithImage Attributes</b></summary>
-
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
   |**`iosIcon`**|`string`| ios-bonfire-outline | Card view icon name, icon list : [ionicons](https://ionicframework.com/docs/ionicons/) |iOS|
@@ -34,4 +30,20 @@ This component has a icon, title and content.
   |**`contentPaddingTop`**|`number`| - | Card view content padding top props  |iOS,Android|
   |**`onPress`**|`func`| - | onPress function |iOS,Android|
 
-</details>
+
+### Examples
+
+```jsx
+import { CardViewWithIcon } from 'react-native-simple-card-view'
+```
+
+```jsx
+    <CardViewWithIcon
+        androidIcon={ 'md-bonfire' }
+        iosIcon={ 'ios-bonfire-outline' }
+        iconBgColor={ '#b13757' }
+        iconColor={ '#FFFFFF' }
+        title={ 'LOREM IPSUM' }
+        content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
+    />
+```
