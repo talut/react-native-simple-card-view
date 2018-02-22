@@ -1,13 +1,44 @@
-### React Native Simple Card View : *CardViewWithImage*
+<h1 align="center">CardViewWithImage</h1>
 
-This component has an image, title and content. The image can be your own component, rounded or full width.
-
-
-<details>
-<summary><b>CardViewWithImage Attributes</b></summary>
+<p align="center"><img src="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png" alt="CardViewWithImage" /></p>
 
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
-  |**`imageComponent`**|`object`| - | You can place easily your own image component |iOS,Android|
+  |**`onPress`**|`func`| - | onPress function |iOS,Android|
 
-</details>
+
+#### Examples
+
+```jsx
+import { CardViewWithImage } from 'react-native-simple-card-view'
+```
+
+**Simple Full Width Image Example**
+
+```jsx
+    <CardViewWithImage
+        width={ (200}
+        source={ {uri: 'https://placeimg.com/640/480/nature'} }
+        content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
+        title={ 'React Nature :D' }
+        imageWidth={ '100%' }
+        imageHeight={ 100 }
+        roundedImage={ false }
+    />
+```
+
+**Rounded Image Example**
+
+```jsx
+    <CardViewWithImage
+        width={ (300}
+        content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
+        source={ {uri: 'https://placeimg.com/640/480/tech'} }
+        title={ 'Hello World!' }
+        imageWidth={ 100 }
+        imageHeight={ 100 }
+        roundedImage={ true }
+        roundedImageValue={ 50 }
+        imageMargin={ {top: 10} }
+    />
+```

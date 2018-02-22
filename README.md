@@ -96,79 +96,14 @@ This component has a icon, title and content.
 </details>
 
 
-#### CardViewWithImage ( [Show example](#cardviewwithimage))
+#### CardViewWithIcon
 
-[Go to the CardViewWithImage documentation](/docs/cardviewwithicon.md)
+[Go to the CardViewWithIcon documentation and examples](/docs/cardviewwithicon.md)
 
-## Examples
+#### CardViewWithImage
 
-<details><summary><b>CardViewWithIcon</b></summary>
+[Go to the CardViewWithImage documentation and examples](/docs/cardviewwithimage.md)
 
-<p align="center"><img width="300" height="400" src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithIcon Example" /><img width="400" height="700" src="https://i.lensdump.com/i/hQdxa.gif" alt="CardViewWithIcon Example" /></p>
-
-```jsx
-import { CardViewWithIcon } from 'react-native-simple-card-view'
-```
-
-```jsx
-            <CardViewWithIcon
-              androidIcon={ 'md-bonfire' }
-              iosIcon={ 'ios-bonfire-outline' }
-              iconBgColor={ '#b13757' }
-              iconColor={ '#FFFFFF' }
-              title={ 'LOREM IPSUM' }
-              content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
-            />
-```
-
-</details>
-
-<details><summary><b>CardViewWithImage</b></summary>
-
-<p align="center">
-<a href="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png">
-<img src="https://s9.postimg.org/pxvdia4rj/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png" alt="CardViewWithIcon Example" />
-</a>
-</p>
-
-```jsx
-import { CardViewWithImage } from 'react-native-simple-card-view'
-```
-
-```jsx
-          <CardViewWithImage
-            width={ (Dimensions.get('window').width / 2) - 20 }
-            source={ {uri: 'https://placeimg.com/640/480/nature'} }
-            content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
-            title={ 'React Nature :D' }
-            imageWidth={ '100%' }
-            imageHeight={ 100 }
-            roundedImage={ false }
-          />
-          <CardViewWithImage
-            width={ (Dimensions.get('window').width / 2) - 20 }
-            content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
-            source={ {uri: 'https://placeimg.com/640/480/tech'} }
-            title={ 'Hello World!' }
-            imageWidth={ 100 }
-            imageHeight={ 100 }
-            roundedImage={ true }
-            roundedImageValue={ 50 }
-            imageShadow={ true }
-            imageMargin={ {top: 10} }
-          />
-          <CardViewWithImage
-            width={ Dimensions.get('window').width - 20 }
-            source={ {uri: 'https://placeimg.com/640/480/people'} }
-            content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in !' }
-            title={ 'Hello World!' }
-            imageHeight={ 200 }
-            roundedImage={ false }
-            imageShadow={ true }
-          />
-```
-
-</details>
 
 ## v0.2.0 Features
 
