@@ -1,5 +1,7 @@
 ### React Native Simple Card View : *CardViewWithIcon*
 
+<p style="text-align:center"><img src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithImage" /></p>
+
 This component has a icon, title and content.
 
   | Prop | Type | Default | Description | Platform |
@@ -31,7 +33,7 @@ This component has a icon, title and content.
   |**`onPress`**|`func`| - | onPress function |iOS,Android|
 
 
-### Examples
+#### Examples
 
 ```jsx
 import { CardViewWithIcon } from 'react-native-simple-card-view'
