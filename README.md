@@ -98,18 +98,7 @@ This component has a icon, title and content.
 
 #### CardViewWithImage ( [Show example](#cardviewwithimage))
 
-This component has an image, title and content. Also image can be rounded, full width.
-
-<details><summary><b>Show CardViewWithImage Attributes</b></summary>
-
-- updated.....
-
-  | Prop | Type | Default | Description | Platform |
-  |---|---|---|---|---|
-  |**`imageComponent`**|`object`| - | You can place easily your own image component |iOS,Android|
-
-</details>
-
+[Go to the CardViewWithImage documentation]()
 
 ## Examples
 
