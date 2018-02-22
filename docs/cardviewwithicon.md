@@ -52,6 +52,8 @@ import { CardViewWithIcon } from 'react-native-simple-card-view'
 
 **onPress Example**
 
+<p align="center"><img src="https://i.lensdump.com/i/hQdxa.gif" alt="CardViewWithIcon Example" /></p>
+
 ```jsx
     <CardViewWithIcon
         androidIcon={ 'md-jet' }
