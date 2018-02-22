@@ -1,8 +1,6 @@
 ### React Native Simple Card View : *CardViewWithIcon*
 
-<p style="text-align:center"><img src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithImage" /></p>
-
-This component has a icon, title and content.
+<p align="center"><img src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithImage" /></p>
 
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
@@ -39,11 +37,27 @@ This component has a icon, title and content.
 import { CardViewWithIcon } from 'react-native-simple-card-view'
 ```
 
+**Simple Example**
+
 ```jsx
     <CardViewWithIcon
         androidIcon={ 'md-bonfire' }
         iosIcon={ 'ios-bonfire-outline' }
         iconBgColor={ '#b13757' }
+        iconColor={ '#FFFFFF' }
+        title={ 'LOREM IPSUM' }
+        content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
+    />
+```
+
+**onPress Example**
+
+```jsx
+    <CardViewWithIcon
+        androidIcon={ 'md-jet' }
+        iosIcon={ 'ios-jet-outline' }
+        iconBgColor={ 'rgba(76,175,80 ,1)' }
+        onPress={() => console.log("CardViewWithIcon Clicked")}
         iconColor={ '#FFFFFF' }
         title={ 'LOREM IPSUM' }
         content={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' }
