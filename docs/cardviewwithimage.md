@@ -10,6 +10,11 @@
 
   | Prop | Type | Default | Description | Platform | Required |
   |---|---|---|---|---|---|
+  |**`imageWidth`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
+  |**`imageHeight`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
+  |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
+  |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
+  |**`imageMargin`**|`object`| - | You can set image **margin** with this. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`source`**|`object`| - | You can add your source like [React_Native Image Component Documents](https://facebook.github.io/react-native/docs/image.html#source). Also, if you use imageComponent you can remove this |iOS,Android| If you're not using imageComponent |
   |**`buttonComponent`**|`object`| - | You can place your own button component for showing a button |iOS,Android| No|
   |**`imageComponent`**|`object`| - | You can place your own image component (Fast-image etc.) but if you use this, our embedded styling not work. |iOS,Android| No|
@@ -27,9 +32,6 @@
   |**`contentPadding`**|`object`| - | You can set content **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`contentMargin`**|`object`| - | You can set content **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| No|
-  |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
-  |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
-  |**`imageMargin`**|`object`| - | You can set image **margin** with this. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
 
 
 #### Examples

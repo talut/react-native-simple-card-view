@@ -104,7 +104,8 @@ CardViewWithImage.defaultProps = {
     left  : undefined,
     right : undefined
   },
-  imageWidth       : '100%',
+  imageWidth       : 100,
+  imageHeight      : 100,
 
   //TITLE
   titleTextAlign   : 'center',
@@ -164,7 +165,8 @@ CardViewWithImage.propTypes = {
   imageComponent   : PropTypes.object,
   roundedImage     : PropTypes.bool,
   roundedImageValue: PropTypes.number,
-  imageMargin      : PropTypes.object
+  imageMargin      : PropTypes.object,
+  imageWidth       : PropTypes.number,
 };
 
 export default CardViewWithImage
