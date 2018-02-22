@@ -116,34 +116,27 @@ CardViewWithImage.defaultProps = {
   contentLineHeight   : 18,
 };
 CardViewWithImage.propTypes = {
-  style               : PropTypes.object,
+  style            : PropTypes.object,
   // TITLE
-  title               : PropTypes.string,
-  titleTextAlign      : PropTypes.string,
-  titleFontWeight     : PropTypes.string,
-  titleFontSize       : PropTypes.number,
-  titlePaddingBottom  : PropTypes.number,
-  titlePaddingTop     : PropTypes.number,
-  titlePaddingLeft    : PropTypes.number,
-  titlePaddingRight   : PropTypes.number,
+  title            : PropTypes.string,
+  titleTextAlign   : PropTypes.string,
+  titleFontWeight  : PropTypes.string,
+  titleFontSize    : PropTypes.number,
+  titlePadding     : PropTypes.object,
   // CONTENT
-  content             : PropTypes.string,
-  contentFontWeight   : PropTypes.string,
-  contentFontSize     : PropTypes.number,
-  contentTextAlign    : PropTypes.string,
-  contentPaddingLeft  : PropTypes.number,
-  contentPaddingRight : PropTypes.number,
-  contentPaddingBottom: PropTypes.number,
-  contentPaddingTop   : PropTypes.number,
-  contentLineHeight   : PropTypes.number,
+  content          : PropTypes.string,
+  contentFontWeight: PropTypes.string,
+  contentFontSize  : PropTypes.number,
+  contentTextAlign : PropTypes.string,
+  contentPadding   : PropTypes.object,
+  contentLineHeight: PropTypes.number,
   // Button
-  buttonComponent     : PropTypes.object,
+  buttonComponent  : PropTypes.object,
   // Image
-  imageComponent      : PropTypes.object,
-  roundedImage        : PropTypes.bool,
-  roundedImageValue   : PropTypes.number,
-  imageShadow         : PropTypes.bool,
-  imageMargin         : PropTypes.object
+  imageComponent   : PropTypes.object,
+  roundedImage     : PropTypes.bool,
+  roundedImageValue: PropTypes.number,
+  imageMargin      : PropTypes.object
 };
 
 export default CardViewWithImage
