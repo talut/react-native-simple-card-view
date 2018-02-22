@@ -14,10 +14,14 @@ class CardViewWithImage extends Component {
       alignSelf    : 'center',
       fontWeight   : this.props.titleFontWeight,
       fontSize     : this.props.titleFontSize,
-      paddingBottom: this.props.titlePaddingBottom,
-      paddingTop   : this.props.titlePaddingTop,
-      paddingLeft  : this.props.titlePaddingLeft,
-      paddingRight : this.props.titlePaddingRight,
+      marginTop    : this.props.titleMargin.top,
+      marginBottom : this.props.titleMargin.bottom,
+      marginRight  : this.props.titleMargin.right,
+      marginLeft   : this.props.titleMargin.left,
+      paddingTop   : this.props.titlePadding.top,
+      paddingBottom: this.props.titlePadding.bottom,
+      paddingRight : this.props.titlePadding.right,
+      paddingLeft  : this.props.titlePadding.left,
     };
 
     const contentStyle = {
@@ -25,11 +29,15 @@ class CardViewWithImage extends Component {
       fontWeight   : this.props.contentFontWeight,
       fontSize     : this.props.contentFontSize,
       textAlign    : this.props.contentTextAlign,
-      paddingLeft  : this.props.contentPaddingLeft,
-      paddingRight : this.props.contentPaddingRight,
-      paddingBottom: this.props.contentPaddingBottom,
-      paddingTop   : this.props.contentPaddingTop,
       lineHeight   : this.props.contentLineHeight,
+      marginTop    : this.props.contentMargin.top,
+      marginBottom : this.props.contentMargin.bottom,
+      marginRight  : this.props.contentMargin.right,
+      marginLeft   : this.props.contentMargin.left,
+      paddingTop   : this.props.contentPadding.top,
+      paddingBottom: this.props.contentPadding.bottom,
+      paddingRight : this.props.contentPadding.right,
+      paddingLeft  : this.props.contentPadding.left,
     };
     const content = <View style={ container }>
       { this.props.imageComponent === undefined ? <Image
@@ -98,22 +106,38 @@ CardViewWithImage.defaultProps = {
   imageWidth       : '100%',
 
   //TITLE
-  titleTextAlign      : 'center',
-  titleFontWeight     : 'bold',
-  titleFontSize       : 18,
-  titlePaddingBottom  : 10,
-  titlePaddingTop     : 10,
-  titlePaddingLeft    : 0,
-  titlePaddingRight   : 0,
+  titleTextAlign   : 'center',
+  titleFontWeight  : 'bold',
+  titleFontSize    : 18,
+  titlePadding     : {
+    top   : 10,
+    bottom: 10,
+    left  : undefined,
+    right : undefined
+  },
+  titleMargin      : {
+    top   : undefined,
+    bottom: undefined,
+    left  : undefined,
+    right : undefined
+  },
   // CONTENT
-  contentFontWeight   : '400',
-  contentFontSize     : 13,
-  contentTextAlign    : 'justify',
-  contentPaddingLeft  : 10,
-  contentPaddingRight : 10,
-  contentPaddingBottom: 10,
-  contentPaddingTop   : 0,
-  contentLineHeight   : 18,
+  contentFontWeight: '400',
+  contentFontSize  : 13,
+  contentTextAlign : 'justify',
+  contentPadding   : {
+    top   : undefined,
+    bottom: 10,
+    left  : 10,
+    right : 10
+  },
+  contentMargin    : {
+    top   : undefined,
+    bottom: undefined,
+    left  : undefined,
+    right : undefined
+  },
+  contentLineHeight: 18,
 };
 CardViewWithImage.propTypes = {
   style            : PropTypes.object,
@@ -123,12 +147,14 @@ CardViewWithImage.propTypes = {
   titleFontWeight  : PropTypes.string,
   titleFontSize    : PropTypes.number,
   titlePadding     : PropTypes.object,
+  titleMargin      : PropTypes.object,
   // CONTENT
   content          : PropTypes.string,
   contentFontWeight: PropTypes.string,
   contentFontSize  : PropTypes.number,
   contentTextAlign : PropTypes.string,
   contentPadding   : PropTypes.object,
+  contentMargin    : PropTypes.object,
   contentLineHeight: PropTypes.number,
   // Button
   buttonComponent  : PropTypes.object,
