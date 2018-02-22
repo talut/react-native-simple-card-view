@@ -17,16 +17,18 @@
   |**`titleTextAlign`**|`string`| - | Component title text align |iOS,Android| No|
   |**`titleFontWeight`**|`string`| - | Component title font weight |iOS,Android| No|
   |**`titleFontSize`**|`number`| - | Component title font size|iOS,Android| No|
-  |**`titlePadding`**|`object`| - | You can set title padding with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
+  |**`titlePadding`**|`object`| - | You can set title *padding* with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
+  |**`titleMargin`**|`object`| - | You can set title *margin* with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`content`**|`string`| - | Content text |iOS,Android| No|
   |**`contentFontWeight`**|`string`| - | Component content font weight |iOS,Android| No|
   |**`contentFontSize`**|`string`| - | Component content font size |iOS,Android| No|
   |**`contentTextAlign`**|`string`| - | Component content text align |iOS,Android| No|
-  |**`contentPadding`**|`object`| - | You can set content padding with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
+  |**`contentPadding`**|`object`| - | You can set content *padding* with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
+  |**`contentMargin`**|`object`| - | You can set content *margin* with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| No|
   |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
   |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
-  |**`imageMargin`**|`object`| - | You can set image margin with this. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
+  |**`imageMargin`**|`object`| - | You can set image *margin* with this. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
 
 
 #### Examples
