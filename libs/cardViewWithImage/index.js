@@ -22,6 +22,7 @@ class CardViewWithImage extends Component {
       paddingBottom: this.props.titlePadding.bottom,
       paddingRight : this.props.titlePadding.right,
       paddingLeft  : this.props.titlePadding.left,
+      lineHeight   : this.props.titleLineHeight,
     };
 
     const contentStyle = {
@@ -148,6 +149,7 @@ CardViewWithImage.propTypes = {
   titleFontSize    : PropTypes.number,
   titlePadding     : PropTypes.object,
   titleMargin      : PropTypes.object,
+  titleLineHeight  : PropTypes.number,
   // CONTENT
   content          : PropTypes.string,
   contentFontWeight: PropTypes.string,

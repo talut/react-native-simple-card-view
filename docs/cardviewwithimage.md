@@ -19,6 +19,7 @@
   |**`titleFontSize`**|`number`| - | Component title font size|iOS,Android| No|
   |**`titlePadding`**|`object`| - | You can set title **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`titleMargin`**|`object`| - | You can set title **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
+  |**`titleLineHeight`**|`number`| - | Component title text line height |iOS,Android| No|
   |**`content`**|`string`| - | Content text |iOS,Android| No|
   |**`contentFontWeight`**|`string`| - | Component content font weight |iOS,Android| No|
   |**`contentFontSize`**|`string`| - | Component content font size |iOS,Android| No|
