@@ -1,6 +1,10 @@
 <h1 align="center">CardViewWithImage</h1>
 
-<p align="center"><img src="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png" alt="CardViewWithImage" /></p>
+<p align="center">
+<a href="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png">
+<img src="https://s9.postimg.org/pxvdia4rj/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png" alt="CardViewWithImage Example" />
+</a>
+</p>
 
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
