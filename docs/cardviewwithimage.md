@@ -13,24 +13,24 @@
   |**`title`**|`string`| - | Component title |iOS,Android| No|
   |**`titleTextAlign`**|`string`| - | Component title text align |iOS,Android| No|
   |**`titleFontWeight`**|`string`| - | Component title font weight |iOS,Android| No|
-  |**`titleFontSize`**|`number`| - | Component title  font size|iOS,Android| No|
-  |**`titlePaddingBottom`**|`number`| - | Component title padding bottom |iOS,Android| No|
-  |**`titlePaddingTop`**|`number`| - | onPress function |iOS,Android| No|
-  |**`titlePaddingLeft`**|`number`| - | onPress function |iOS,Android| No|
-  |**`titlePaddingRight`**|`number`| - | onPress function |iOS,Android| No|
-  |**`content`**|`number`| - | onPress function |iOS,Android| No|
-  |**`contentFontWeight`**|`string`| - | onPress function |iOS,Android| No|
-  |**`contentFontSize`**|`string`| - | onPress function |iOS,Android| No|
-  |**`contentTextAlign`**|`string`| - | onPress function |iOS,Android| No|
-  |**`contentPaddingLeft`**|`number`| - | onPress function |iOS,Android| No|
-  |**`contentPaddingRight`**|`number`| - | onPress function |iOS,Android| No|
-  |**`contentPaddingBottom`**|`number`| - | onPress function |iOS,Android| No|
-  |**`contentPaddingTop`**|`number`| - | onPress function |iOS,Android| No|
-  |**`contentLineHeight`**|`number`| - | onPress function |iOS,Android| No|
-  |**`buttonComponent`**|`object`| - | onPress function |iOS,Android| No|
-  |**`imageComponent`**|`object`| - | onPress function |iOS,Android| No|
-  |**`roundedImage`**|`bool`| - | onPress function |iOS,Android| No|
-  |**`roundedImageValue`**|`number`| - | onPress function |iOS,Android| No|
+  |**`titleFontSize`**|`number`| - | Component title font size|iOS,Android| No|
+  |**`titlePaddingBottom`**|`number`| - | Component title bottom padding |iOS,Android| No|
+  |**`titlePaddingTop`**|`number`| - | Component title top padding  |iOS,Android| No|
+  |**`titlePaddingLeft`**|`number`| - | Component title left padding |iOS,Android| No|
+  |**`titlePaddingRight`**|`number`| - | Component title right padding |iOS,Android| No|
+  |**`content`**|`string`| - | Content text |iOS,Android| No|
+  |**`contentFontWeight`**|`string`| - | Component content font weight |iOS,Android| No|
+  |**`contentFontSize`**|`string`| - | Component content font size |iOS,Android| No|
+  |**`contentTextAlign`**|`string`| - | Component content text align |iOS,Android| No|
+  |**`contentPaddingLeft`**|`number`| - | Component content left padding |iOS,Android| No|
+  |**`contentPaddingRight`**|`number`| - | Component content right padding |iOS,Android| No|
+  |**`contentPaddingBottom`**|`number`| - |Component content bottom padding |iOS,Android| No|
+  |**`contentPaddingTop`**|`number`| - | Component content top padding |iOS,Android| No|
+  |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| No|
+  |**`buttonComponent`**|`object`| - | You can place your own button component for showing a button |iOS,Android| No|
+  |**`imageComponent`**|`object`| - | You can place your own image component (Fast-image etc.) but if you use this, our embedded styling not work. |iOS,Android| No|
+  |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
+  |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
   |**`imageMargin`**|`object`| - | onPress function |iOS,Android| No|
 
 
