@@ -28,11 +28,16 @@
   |**`contentPaddingLeft`**|`number`| - | Component content left padding |iOS,Android| No|
   |**`contentPaddingRight`**|`number`| - | Component content right padding |iOS,Android| No|
   |**`contentPaddingBottom`**|`number`| - |Component content bottom padding |iOS,Android| No|
-  |**`contentPaddingTop`**|`number`| - | Component content top padding |iOS,Android| No|
+  |**`contentPaddingTop`**|`number`| - | Componentcontent top padding |iOS,Android| No|
   |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| No|
   |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
   |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
-  |**`imageMargin`**|`object`| - | onPress function |iOS,Android| No|
+  |**`imageMargin`**|`object`| ```   imageMargin      : {
+                                       top   : undefined,
+                                       bottom: undefined,
+                                       left  : undefined,
+                                       right : undefined
+                                     }, ``` | onPress function |iOS,Android| No|
 
 
 #### Examples
