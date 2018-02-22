@@ -85,6 +85,7 @@ class CardViewWithImage extends Component {
 }
 
 CardViewWithImage.defaultProps = {
+  width            : 300,
   style            : {
     shadowColor       : '#000000',
     shadowOffsetWidth : 3,
@@ -142,6 +143,7 @@ CardViewWithImage.defaultProps = {
   contentLineHeight: 18,
 };
 CardViewWithImage.propTypes = {
+  width            : PropTypes.number,
   style            : PropTypes.object,
   // TITLE
   title            : PropTypes.string,

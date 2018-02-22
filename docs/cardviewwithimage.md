@@ -10,6 +10,7 @@
 
   | Prop | Type | Default | Description | Platform | Required |
   |---|---|---|---|---|---|
+  |**`width`**|`number or string`| `300` | CardView width (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`imageWidth`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`imageHeight`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
@@ -64,6 +65,23 @@ import { CardViewWithImage } from 'react-native-simple-card-view'
         title={ 'Hello World!' }
         imageWidth={ 100 }
         imageHeight={ 100 }
+        roundedImage={ true }
+        roundedImageValue={ 50 }
+        imageMargin={ {top: 10} }
+    />
+```
+
+**onPress Example**
+
+```jsx
+    <CardViewWithImage
+        width={ (300}
+        content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
+        source={ {uri: 'https://placeimg.com/640/480/tech'} }
+        title={ 'Hello World!' }
+        imageWidth={ 100 }
+        imageHeight={ 100 }
+        onPress={() => console.log("CardViewWithImage Clicked!")}
         roundedImage={ true }
         roundedImageValue={ 50 }
         imageMargin={ {top: 10} }
