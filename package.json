@@ -10,6 +10,7 @@
     "react-native",
     "card-view",
     "card-view-icon",
+    "card-view-image",
     "react-native-card",
     "card"
   ],
