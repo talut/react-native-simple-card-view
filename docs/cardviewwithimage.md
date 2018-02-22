@@ -8,13 +8,31 @@
 
 #### Attributes
 
-<p align="center">
+  | Prop | Type | Default | Description | Platform | Required |
+  |---|---|---|---|---|---|
+  |**`title`**|`string`| - | Component title |iOS,Android| No|
+  |**`titleTextAlign`**|`string`| - | Component title text align |iOS,Android| No|
+  |**`titleFontWeight`**|`string`| - | Component title font weight |iOS,Android| No|
+  |**`titleFontSize`**|`number`| - | Component title  font size|iOS,Android| No|
+  |**`titlePaddingBottom`**|`number`| - | Component title padding bottom |iOS,Android| No|
+  |**`titlePaddingTop`**|`number`| - | onPress function |iOS,Android| No|
+  |**`titlePaddingLeft`**|`number`| - | onPress function |iOS,Android| No|
+  |**`titlePaddingRight`**|`number`| - | onPress function |iOS,Android| No|
+  |**`content`**|`number`| - | onPress function |iOS,Android| No|
+  |**`contentFontWeight`**|`string`| - | onPress function |iOS,Android| No|
+  |**`contentFontSize`**|`string`| - | onPress function |iOS,Android| No|
+  |**`contentTextAlign`**|`string`| - | onPress function |iOS,Android| No|
+  |**`contentPaddingLeft`**|`number`| - | onPress function |iOS,Android| No|
+  |**`contentPaddingRight`**|`number`| - | onPress function |iOS,Android| No|
+  |**`contentPaddingBottom`**|`number`| - | onPress function |iOS,Android| No|
+  |**`contentPaddingTop`**|`number`| - | onPress function |iOS,Android| No|
+  |**`contentLineHeight`**|`number`| - | onPress function |iOS,Android| No|
+  |**`buttonComponent`**|`object`| - | onPress function |iOS,Android| No|
+  |**`imageComponent`**|`object`| - | onPress function |iOS,Android| No|
+  |**`roundedImage`**|`bool`| - | onPress function |iOS,Android| No|
+  |**`roundedImageValue`**|`number`| - | onPress function |iOS,Android| No|
+  |**`imageMargin`**|`object`| - | onPress function |iOS,Android| No|
 
-  | Prop | Type | Default | Description | Platform |
-  |---|---|---|---|---|
-  |**`onPress`**|`func`| - | onPress function |iOS,Android|
-
-</p>
 
 #### Examples
 
