@@ -31,16 +31,25 @@ class CardViewWithImage extends Component {
       paddingTop   : this.props.contentPaddingTop,
       lineHeight   : this.props.contentLineHeight,
     };
-    const buttonStyle = {
-      alignSelf    : 'center',
-      fontWeight   : this.props.buttonFontWeight,
-      fontSize     : this.props.buttonFontSize,
-      textAlign    : this.props.buttonTextAlign,
-      paddingLeft  : this.props.buttonPaddingLeft,
-      paddingRight : this.props.buttonPaddingRight,
-      paddingBottom: this.props.buttonPaddingBottom,
-      paddingTop   : this.props.buttonPaddingTop,
-    };
+    const content = <View style={ container }>
+      { this.props.imageComponent === undefined ? <Image
+        resizeMode={ 'cover' }
+        style={ {
+          width       : this.props.imageWidth,
+          height      : this.props.imageHeight,
+          borderRadius: this.props.roundedImage ? this.props.roundedImageValue : undefined,
+          alignSelf   : 'center',
+          marginTop   : this.props.imageMargin.top,
+          marginBottom: this.props.imageMargin.bottom,
+          marginRight : this.props.imageMargin.right,
+          marginLeft  : this.props.imageMargin.left,
+        } }
+        source={ this.props.source }
+      /> : this.props.imageComponent }
+      { this.props.title !== undefined ? <Text style={ titleStyle }>{ this.props.title }</Text> : undefined }
+      { this.props.content !== undefined ? <Text style={ contentStyle }>{ this.props.content }</Text> : undefined }
+      { this.props.buttonComponent }
+    </View>;
 
     return (
       <View style={ {
@@ -59,25 +68,8 @@ class CardViewWithImage extends Component {
         elevation      : Platform.OS === "android" ? this.props.style.elevation : 0,
         borderRadius   : this.props.style.borderRadius,
       } }>
-        <View style={ container }>
-          { this.props.imageComponent === undefined ? <Image
-            resizeMode={ 'cover' }
-            style={ {
-              width       : this.props.imageWidth,
-              height      : this.props.imageHeight,
-              borderRadius: this.props.roundedImage ? this.props.roundedImageValue : undefined,
-              alignSelf   : 'center',
-              marginTop   : this.props.imageMargin.top,
-              marginBottom: this.props.imageMargin.bottom,
-              marginRight : this.props.imageMargin.right,
-              marginLeft  : this.props.imageMargin.left,
-            } }
-            source={ this.props.source }
-          /> : this.props.imageComponent }
-          { this.props.title !== undefined ? <Text style={ titleStyle }>{ this.props.title }</Text> : undefined }
-          { this.props.content !== undefined ? <Text style={ contentStyle }>{ this.props.content }</Text> : undefined }
-          { this.props.buttonComponent }
-        </View>
+        { this.props.onPress !== undefined ?
+          <TouchableOpacity onPress={ this.props.onPress }>{ content }</TouchableOpacity> : content }
       </View>
     )
   }
