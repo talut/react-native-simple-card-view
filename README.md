@@ -35,9 +35,7 @@ react-native link
 - [ ] CardView (Place your component to inside of CardView)
 - [ ] CardViewWithAnimation or Adding animation support to CardViewWithIcon, CardViewWithImage, ArticleCardView
 
-## Attributes
-
-#### Styling card view
+## Styling card view
 
 You can create an object, who has the card view styles.
 Then you can give that object to style props. Card view style object can have the following attributes

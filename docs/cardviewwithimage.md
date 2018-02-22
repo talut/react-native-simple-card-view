@@ -6,10 +6,15 @@
 </a>
 </p>
 
+#### Attributes
+
+<p align="center">
+
   | Prop | Type | Default | Description | Platform |
   |---|---|---|---|---|
   |**`onPress`**|`func`| - | onPress function |iOS,Android|
 
+</p>
 
 #### Examples
 
