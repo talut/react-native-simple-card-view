@@ -10,6 +10,9 @@
 
   | Prop | Type | Default | Description | Platform | Required |
   |---|---|---|---|---|---|
+  |**`source`**|`object`| - | You can add your source like [React_Native Image Component Documents](https://facebook.github.io/react-native/docs/image.html#source). Also, if you use imageComponent you can remove this |iOS,Android| If you're not using imageComponent |
+  |**`buttonComponent`**|`object`| - | You can place your own button component for showing a button |iOS,Android| No|
+  |**`imageComponent`**|`object`| - | You can place your own image component (Fast-image etc.) but if you use this, our embedded styling not work. |iOS,Android| No|
   |**`title`**|`string`| - | Component title |iOS,Android| No|
   |**`titleTextAlign`**|`string`| - | Component title text align |iOS,Android| No|
   |**`titleFontWeight`**|`string`| - | Component title font weight |iOS,Android| No|
@@ -27,8 +30,6 @@
   |**`contentPaddingBottom`**|`number`| - |Component content bottom padding |iOS,Android| No|
   |**`contentPaddingTop`**|`number`| - | Component content top padding |iOS,Android| No|
   |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| No|
-  |**`buttonComponent`**|`object`| - | You can place your own button component for showing a button |iOS,Android| No|
-  |**`imageComponent`**|`object`| - | You can place your own image component (Fast-image etc.) but if you use this, our embedded styling not work. |iOS,Android| No|
   |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
   |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
   |**`imageMargin`**|`object`| - | onPress function |iOS,Android| No|
