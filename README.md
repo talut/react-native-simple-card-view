@@ -57,6 +57,8 @@ Then you can give that object to style props. Card view style object can have th
 |**`shadowOffsetWidth`**|`number`| 3 |  Shadow offset width only for iOS |iOS|
 |**`shadowOffsetHeight`**|`number`| 3 | Shadow offset height only for iOS  |iOS|
 
+## Components & Examples
+
 #### CardViewWithIcon
 
 *[Go to the CardViewWithIcon documentation and examples](/docs/cardviewwithicon.md)*
