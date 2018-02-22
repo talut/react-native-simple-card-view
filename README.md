@@ -50,20 +50,20 @@ Then you can give that object to style props. Card view style object can have th
 |**`margin`**|`number`| 10 | Card view margin |iOS,Android|
 |**`borderRadius`**|`number`| 3 | Card view border radius|iOS,Android|
 |**`shadowColor`**|`string`| `'#000000' | Card view shadow color |iOS,Android|
-|**`shadowOpacity`**|`number`| 0.3 | Card view shadow opacity |iOS,Android|
+|**`shadowOpacity`**|`number`| 0.3 | Card vie`w shadow opacity |iOS,Android|
 |**`shadowRadius`**|`number`| 3 | Card view shadow radius |iOS,Android|
 |**`bgColor`**|`string`| `'#ffffff'` | Card view background color |iOS,Android|
 |**`elevation`**|`number`| 3 | Only for Android shadow value  |Android|
-|**`shadowOffsetWidth`**|`number`| 3 | Only for iOS shadow offset width  |iOS|
-|**`shadowOffsetHeight`**|`number`| 3 | Only for iOS shadow offset height  |iOS|
+|**`shadowOffsetWidth`**|`number`| 3 |  Shadow offset width only for iOS |iOS|
+|**`shadowOffsetHeight`**|`number`| 3 | Shadow offset height only for iOS  |iOS|
 
 #### CardViewWithIcon
 
-[Go to the CardViewWithIcon documentation and examples](/docs/cardviewwithicon.md)
+*[Go to the CardViewWithIcon documentation and examples](/docs/cardviewwithicon.md)*
 
 #### CardViewWithImage
 
-[Go to the CardViewWithImage documentation and examples](/docs/cardviewwithimage.md)
+*[Go to the CardViewWithImage documentation and examples](/docs/cardviewwithimage.md)*
 
 ## v0.2.0 Features
 
