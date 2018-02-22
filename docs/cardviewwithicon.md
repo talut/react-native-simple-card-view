@@ -1,4 +1,4 @@
-<h1 align="center>CardViewWithIcon</h1>
+<h1 align="center">CardViewWithIcon</h1>
 
 <p align="center"><img src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithImage" /></p>
 
