@@ -37,8 +37,8 @@ react-native link
 
 #### Components
 
-- [x] CardViewWithIcon ([See documentation of usage](/docs/cardviewwithicon.md))
-- [x] CardViewWithImage ([See documentation of usage](/docs/cardviewwithimage.md))
+- [x] CardViewWithIcon ([See documentation of usage](/docs/en/cardviewwithicon.md))
+- [x] CardViewWithImage ([See documentation of usage](/docs/en/cardviewwithimage.md))
 - [ ] CardView (Place your component to inside of CardView)
 - [ ] CardViewWithAnimation or Adding animation support to CardViewWithIcon, CardViewWithImage, ArticleCardView
 
@@ -66,11 +66,11 @@ Then you can give that object to style props. Card view style object can have th
 
 #### CardViewWithIcon
 
-*[Go to the CardViewWithIcon documentation and examples](/docs/cardviewwithicon.md)*
+*[Go to the CardViewWithIcon documentation and examples](/docs/en/cardviewwithicon.md)*
 
 #### CardViewWithImage
 
-*[Go to the CardViewWithImage documentation and examples](/docs/cardviewwithimage.md)*
+*[Go to the CardViewWithImage documentation and examples](/docs/en/cardviewwithimage.md)*
 
 ## v0.2.0 Features
 
