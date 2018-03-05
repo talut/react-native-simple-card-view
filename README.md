@@ -67,11 +67,14 @@ Then you can give that object to style props. Card view style object can have th
 #### CardViewWithIcon
 
 *EN | [Go to the CardViewWithIcon documentation and examples](/docs/en/cardviewwithicon.md)*
+
+
 *TR | [CardViewWithIcon örneği ve belgelerine git](/docs/tr/cardviewwithicon.md)*
 
 #### CardViewWithImage
 
 *EN | [Go to the CardViewWithImage documentation and examples](/docs/en/cardviewwithimage.md)*
+
 *TR | (Yakında)[CardViewWithImage örneği ve belgelerine git](/docs/tr/cardviewwithimage.md)*
 
 ## v0.2.0 Features
