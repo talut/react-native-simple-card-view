@@ -66,16 +66,16 @@ Then you can give that object to style props. Card view style object can have th
 
 #### CardViewWithIcon
 
-*EN | [Go to the CardViewWithIcon documentation and examples](/docs/en/cardviewwithicon.md)*
+*![English](https://img.shields.io/badge/EN-English-blue.svg) | [Go to the CardViewWithIcon documentation and examples](/docs/en/cardviewwithicon.md)*
 
 
-*TR | [CardViewWithIcon örneği ve belgelerine git](/docs/tr/cardviewwithicon.md)*
+*![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg) | [CardViewWithIcon örneği ve belgelerine git](/docs/tr/cardviewwithicon.md)*
 
 #### CardViewWithImage
 
-*EN | [Go to the CardViewWithImage documentation and examples](/docs/en/cardviewwithimage.md)*
+*![English](https://img.shields.io/badge/EN-English-blue.svg) | [Go to the CardViewWithImage documentation and examples](/docs/en/cardviewwithimage.md)*
 
-*TR | (Yakında)[CardViewWithImage örneği ve belgelerine git](/docs/tr/cardviewwithimage.md)*
+*![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg) | (Yakında)[CardViewWithImage örneği ve belgelerine git](/docs/tr/cardviewwithimage.md)*
 
 ## v0.2.0 Features
 
