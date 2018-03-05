@@ -66,16 +66,12 @@ Then you can give that object to style props. Card view style object can have th
 
 #### CardViewWithIcon
 
-*![English](https://img.shields.io/badge/EN-English-blue.svg) | [Go to the CardViewWithIcon documentation and examples](/docs/en/cardviewwithicon.md)*
-
-
-*![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg) | [CardViewWithIcon örneği ve belgelerine git](/docs/tr/cardviewwithicon.md)*
+[![English](https://img.shields.io/badge/EN-English-blue.svg)](/docs/en/cardviewwithicon.md)  [![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg)](/docs/tr/cardviewwithicon.md)
 
 #### CardViewWithImage
 
-*![English](https://img.shields.io/badge/EN-English-blue.svg) | [Go to the CardViewWithImage documentation and examples](/docs/en/cardviewwithimage.md)*
-
-*![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg) | (Yakında)[CardViewWithImage örneği ve belgelerine git](/docs/tr/cardviewwithimage.md)*
+[![English](https://img.shields.io/badge/EN-English-blue.svg)](/docs/en/cardviewwithimage.md)
+[![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e%20(Yak%C4%B1nda)-red.svg)](/docs/tr/cardviewwithimage.md)
 
 ## v0.2.0 Features
 
