@@ -14,6 +14,7 @@ class CardViewWithImage extends Component {
       alignSelf    : 'center',
       fontWeight   : this.props.titleFontWeight,
       fontSize     : this.props.titleFontSize,
+      fontFamily   : this.props.titleFontFamily,
       marginTop    : this.props.titleMargin.top,
       marginBottom : this.props.titleMargin.bottom,
       marginRight  : this.props.titleMargin.right,
@@ -29,6 +30,7 @@ class CardViewWithImage extends Component {
       alignSelf    : 'center',
       fontWeight   : this.props.contentFontWeight,
       fontSize     : this.props.contentFontSize,
+      fontFamily   : this.props.contentFontFamily,
       textAlign    : this.props.contentTextAlign,
       lineHeight   : this.props.contentLineHeight,
       marginTop    : this.props.contentMargin.top,
@@ -112,6 +114,7 @@ CardViewWithImage.defaultProps = {
   titleTextAlign   : 'center',
   titleFontWeight  : 'bold',
   titleFontSize    : 18,
+  titleFontFamily  : 'sans serif',
   titlePadding     : {
     top   : 10,
     bottom: 10,
@@ -127,6 +130,7 @@ CardViewWithImage.defaultProps = {
   // CONTENT
   contentFontWeight: '400',
   contentFontSize  : 13,
+  contentFontFamily: 'sans serif',
   contentTextAlign : 'justify',
   contentPadding   : {
     top   : undefined,
@@ -150,6 +154,7 @@ CardViewWithImage.propTypes = {
   titleTextAlign   : PropTypes.string,
   titleFontWeight  : PropTypes.string,
   titleFontSize    : PropTypes.number,
+  titleFontFamily  : PropTypes.string,
   titlePadding     : PropTypes.object,
   titleMargin      : PropTypes.object,
   titleLineHeight  : PropTypes.number,
@@ -157,6 +162,7 @@ CardViewWithImage.propTypes = {
   content          : PropTypes.string,
   contentFontWeight: PropTypes.string,
   contentFontSize  : PropTypes.number,
+  contentFontFamily: PropTypes.string,
   contentTextAlign : PropTypes.string,
   contentPadding   : PropTypes.object,
   contentMargin    : PropTypes.object,
