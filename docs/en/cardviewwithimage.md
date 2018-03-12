@@ -26,11 +26,13 @@
   |**`titlePadding`**|`object`| - | You can set title **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`titleMargin`**|`object`| - | You can set title **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`titleLineHeight`**|`number`| - | Component title text line height |iOS,Android| No|
+  |**`titleFontFamily`**|`string`| `"sans-serif"` | Card view title font family |iOS,Android|
   |**`content`**|`string`| - | Content text |iOS,Android| No|
   |**`contentFontWeight`**|`string`| - | Component content font weight |iOS,Android| No|
   |**`contentFontSize`**|`string`| - | Component content font size |iOS,Android| No|
   |**`contentTextAlign`**|`string`| - | Component content text align |iOS,Android| No|
   |**`contentPadding`**|`object`| - | You can set content **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
+  |**`contentFontFamily`**|`string`| `"sans-serif"` | Card view content font family |iOS,Android|
   |**`contentMargin`**|`object`| - | You can set content **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| No|
 
