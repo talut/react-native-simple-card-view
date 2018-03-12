@@ -72,10 +72,15 @@ Then you can give that object to style props. Card view style object can have th
 
 *[Go to the CardViewWithImage documentation and examples](/docs/cardviewwithimage.md)*
 
-## v0.2.0 Features
+## v0.2.1 Features
 
 - CardViewWithImage component added
 - Some unnecessary codes deleted
+- Custom font feature
+
+## Contributors (Thank you all)
+
+- **[David Halewood : @haletothewood](https://github.com/haletothewood)**
 
 ## Built With
 
