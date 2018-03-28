@@ -12,7 +12,7 @@
   |---|---|---|---|---|---|
   |**`width`**|`number or string`| `300` | CardView width (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`imageWidth`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
-  |**`imageHeight`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
+  |**`imageHeight`**|`number or string`| `100` | Image height (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
   |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
   |**`imageMargin`**|`object`| - | You can set image **margin** with this. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|

@@ -2,7 +2,7 @@
 
 Easiest way to adding a card view on your screen.
 
-- *Hey, v0.2.1 is now released. You can use new component : CardViewWithImage [See v0.2.1 Features](#v021-features)*
+- *Hey, v0.3.0 is now released. You can use new component : CardView [See v0.3.0 Features](#v030-features)*
 
 <p align="center">
 <a href="https://s9.postimg.org/qxh30azpb/Simulator_Screen_Shot_-_i_Phone_8_-_2018-02-21_at_17.49.43.png">
@@ -73,7 +73,7 @@ Then you can give that object to style props. Card view style object can have th
 [![English](https://img.shields.io/badge/EN-English-blue.svg)](/docs/en/cardviewwithimage.md)
 [![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e%20(Yak%C4%B1nda)-red.svg)](/docs/tr/cardviewwithimage.md)
 
-## v0.2.1 Features
+## v0.3.0 Features
 
 - CardViewWithImage component added
 - Some unnecessary codes deleted
