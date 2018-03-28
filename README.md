@@ -64,6 +64,11 @@ Then you can give that object to style props. Card view style object can have th
 
 ## Components & Examples
 
+#### CardView
+
+[![English](https://img.shields.io/badge/EN-English-blue.svg)](/docs/en/cardview.md)
+[![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg)](/docs/tr/cardview.md)
+
 #### CardViewWithIcon
 
 [![English](https://img.shields.io/badge/EN-English-blue.svg)](/docs/en/cardviewwithicon.md)  [![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg)](/docs/tr/cardviewwithicon.md)
@@ -72,6 +77,7 @@ Then you can give that object to style props. Card view style object can have th
 
 [![English](https://img.shields.io/badge/EN-English-blue.svg)](/docs/en/cardviewwithimage.md)
 [![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg)](/docs/tr/cardviewwithimage.md)
+
 
 ## v0.3.0 Features
 

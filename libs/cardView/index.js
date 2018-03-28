@@ -60,8 +60,6 @@ CardView.defaultProps = {
 CardView.propTypes = {
   style       : PropTypes.object,
   onPress     : PropTypes.func,
-  borderRadius: PropTypes.number,
-  elevation   : PropTypes.number,
 };
 
 export default CardView
