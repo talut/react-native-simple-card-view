@@ -12,7 +12,6 @@
 
   | Prop | Type | Default | Description | Platform | Required |
   |---|---|---|---|---|---|
-  |**`width`**|`number or string`| `300` | CardView width (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`onPress`**|`func`| - | onPress function |iOS,Android| No |
 
 #### Examples
@@ -21,49 +20,34 @@
 import { CardViewWithImage } from 'react-native-simple-card-view'
 ```
 
-**Simple Full Width Image Example**
+**Simple Example**
 
 ```jsx
-    <CardViewWithImage
-        width={ (200}
-        source={ {uri: 'https://placeimg.com/640/480/nature'} }
-        content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
-        title={ 'React Nature :D' }
-        imageWidth={ '100%' }
-        imageHeight={ 100 }
-        roundedImage={ false }
-    />
-```
-
-**Rounded Image Example**
-
-```jsx
-    <CardViewWithImage
-        width={ (300}
-        content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
-        source={ {uri: 'https://placeimg.com/640/480/tech'} }
-        title={ 'Hello World!' }
-        imageWidth={ 100 }
-        imageHeight={ 100 }
-        roundedImage={ true }
-        roundedImageValue={ 50 }
-        imageMargin={ {top: 10} }
-    />
+    <CardView>
+        <Text>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis dolores eos ipsam nulla
+            numquam officia provident repellat suscipit. Impedit itaque natus obcaecati odit quas recusandae. Deserunt
+            ipsam iusto molestiae!
+        </Text>
+    </CardView>
 ```
 
 **onPress Example**
 
 ```jsx
-    <CardViewWithImage
-        width={ (300}
-        content={ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut distinctio!' }
-        source={ {uri: 'https://placeimg.com/640/480/tech'} }
-        title={ 'Hello World!' }
-        imageWidth={ 100 }
-        imageHeight={ 100 }
-        onPress={() => console.log("CardViewWithImage Clicked!")}
-        roundedImage={ true }
-        roundedImageValue={ 50 }
-        imageMargin={ {top: 10} }
-    />
+    <CardView onPress={ () => console.log("Clicked!") }>
+        <Image source={ {uri: "https://placeimg.com/640/480/cars"} } style={ {width: 100, height: 100, alignSelf: 'center'} }/>
+        <Text
+            style={ {
+                marginVertical : 15,
+                textAlign      : 'center',
+                backgroundColor: '#673AB7',
+                color          : '#FFFFFF',
+                padding        : 10,
+            } }>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis dolores eos ipsam nulla
+            numquam officia provident repellat suscipit. Impedit itaque natus obcaecati odit quas recusandae. Deserunt
+            ipsam iusto molestiae!
+        </Text>
+    </CardView>
 ```

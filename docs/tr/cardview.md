@@ -1,26 +1,26 @@
 <h1 align="center">CardView</h1>
 
-<p>Simple, empty CardView component. You can fill inside with anything you want</p>
+<p>Basit, boş CardView bileşeni. İçini istediğiniz gibi doldurabilirsiniz. Bu tuval sizin.</p>
 
 <p align="center">
 <a href="https://s7.postimg.org/77al94x63/Simulator_Screen_Shot_-_i_Phone_7_Plus_-_2018-03-28_at_10.59.24.png">
-<img src="https://s7.postimg.org/reo11imyj/Simulator_Screen_Shot_-_i_Phone_7_Plus_-_2018-03-28_at_10.59.24.png" alt="CardView Example" />
+<img src="https://s7.postimg.org/reo11imyj/Simulator_Screen_Shot_-_i_Phone_7_Plus_-_2018-03-28_at_10.59.24.png" alt="CardView Örneğ" />
 </a>
 </p>
 
-#### Attributes
+#### Öznitelikler
 
-  | Prop | Type | Default | Description | Platform | Required |
+  | Özellik | Tip | Varsayılan | Açıklama | Platform | Gerekli mi? |
   |---|---|---|---|---|---|
-  |**`onPress`**|`func`| - | onPress function |iOS,Android| No |
+  |**`onPress`**|`func`| - | onPress fonksiyonu |iOS,Android| Hayır |
 
-#### Examples
+#### Örnekler
 
 ```jsx
 import { CardViewWithImage } from 'react-native-simple-card-view'
 ```
 
-**Simple Example**
+**Basit Örnek**
 
 ```jsx
     <CardView>
@@ -32,7 +32,7 @@ import { CardViewWithImage } from 'react-native-simple-card-view'
     </CardView>
 ```
 
-**onPress Example**
+**onPress Fonksiyon Örneği**
 
 ```jsx
     <CardView onPress={ () => console.log("Clicked!") }>
