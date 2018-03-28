@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Dimensions, Text, Platform, TouchableOpacity } from 'react-native';
+import { Dimensions, Platform, Text, TouchableOpacity, View } from 'react-native';
 import PropTypes from 'prop-types';
 
 class CardView extends React.Component {
@@ -55,13 +55,15 @@ CardView.defaultProps = {
     borderRadius      : 3,
     width             : 300,
     elevation         : 3,
+    fontFamily        : 'System'
   },
 };
 CardView.propTypes = {
   style       : PropTypes.object,
   onPress     : PropTypes.func,
   borderRadius: PropTypes.number,
-  elevation   : PropTypes.number
+  elevation   : PropTypes.number,
+  fontFamily  : PropTypes.string,
 };
 
 export default CardView
