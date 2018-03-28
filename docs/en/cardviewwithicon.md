@@ -21,14 +21,14 @@
   |**`titlePaddingTop`**|`number`| - | Card view title padding top |iOS,Android|
   |**`titlePaddingLeft`**|`number`| - | Card view title padding left |iOS,Android|
   |**`titlePaddingRight`**|`number`| - | Card view title padding right |iOS,Android|
-  |**`titleFontFamily`**|`string`| `"sans-serif"` | Card view title font family |iOS,Android|
+  |**`titleFontFamily`**|`string`| - | Card view title font family |iOS,Android|
   |**`contentFontWeight`**|`string`| 300 | Card view content font weight  |iOS,Android|
   |**`contentTextAlign`**|`string`| justify | Card view content text align |iOS,Android|
   |**`contentFontSize`**|`number`| 12 | Card view content font size |iOS,Android|
   |**`contentPaddingLeft`**|`number`| 10 | Card view content padding left  |iOS,Android|
   |**`contentPaddingRight`**|`number`| 10 | Card view content padding right  |iOS,Android|
   |**`contentPaddingBottom`**|`number`| 10 | Card view content padding bottom  |iOS,Android|
-  |**`contentPaddingTop`**|`number`| `"sans-serif"` | Card view content padding top props  |iOS,Android|
+  |**`contentPaddingTop`**|`number`| - | Card view content padding top props  |iOS,Android|
   |**`contentFontFamily`**|`string`| - | Card view content font family |iOS,Android|
   |**`onPress`**|`func`| - | onPress function |iOS,Android|
 

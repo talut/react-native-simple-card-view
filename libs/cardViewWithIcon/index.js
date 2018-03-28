@@ -125,7 +125,7 @@ CardViewWithIcon.defaultProps = {
   titleTextAlign      : 'center',
   titleFontWeight     : 'bold',
   titleFontSize       : 14,
-  titleFontFamily     : 'sans-serif',
+  titleFontFamily     : undefined,
   titlePaddingBottom  : 10,
   titlePaddingTop     : 0,
   titlePaddingLeft    : 0,
@@ -133,7 +133,7 @@ CardViewWithIcon.defaultProps = {
   // CONTENT
   contentFontWeight   : '300',
   contentFontSize     : 12,
-  contentFontFamily   : 'sans-serif',
+  contentFontFamily   : undefined,
   contentTextAlign    : 'center',
   contentPaddingLeft  : 10,
   contentPaddingRight : 10,
