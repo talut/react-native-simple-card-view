@@ -39,7 +39,7 @@ react-native link
 
 - [x] CardViewWithIcon ([See documentation of usage](/docs/en/cardviewwithicon.md))
 - [x] CardViewWithImage ([See documentation of usage](/docs/en/cardviewwithimage.md))
-- [ ] CardView (Place your component to inside of CardView)
+- [x] CardView (Place your component to inside of CardView)
 - [ ] CardViewWithAnimation or Adding animation support to CardViewWithIcon, CardViewWithImage, ArticleCardView
 
 ## Styling card view
@@ -71,13 +71,14 @@ Then you can give that object to style props. Card view style object can have th
 #### CardViewWithImage
 
 [![English](https://img.shields.io/badge/EN-English-blue.svg)](/docs/en/cardviewwithimage.md)
-[![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e%20(Yak%C4%B1nda)-red.svg)](/docs/tr/cardviewwithimage.md)
+[![Turkish](https://img.shields.io/badge/TR-T%C3%BCrk%C3%A7e-red.svg)](/docs/tr/cardviewwithimage.md)
 
 ## v0.3.0 Features
 
-- CardViewWithImage component added
+- CardView component added. (This component can be used for everything you can fill inside)
 - Some unnecessary codes deleted
 - Custom font feature
+- Turkish documentation support
 
 ## Contributors (Thank you all)
 

@@ -47,7 +47,7 @@ CardView.defaultProps = {
     shadowColor       : '#000000',
     shadowOffsetWidth : 3,
     shadowOffsetHeight: 3,
-    shadowOpacity     : 0.3,
+    shadowOpacity     : 0.1,
     shadowRadius      : 3,
     bgColor           : '#ffffff',
     padding           : 5,
@@ -55,7 +55,6 @@ CardView.defaultProps = {
     borderRadius      : 3,
     width             : 300,
     elevation         : 3,
-    fontFamily        : 'System'
   },
 };
 CardView.propTypes = {
@@ -63,7 +62,6 @@ CardView.propTypes = {
   onPress     : PropTypes.func,
   borderRadius: PropTypes.number,
   elevation   : PropTypes.number,
-  fontFamily  : PropTypes.string,
 };
 
 export default CardView

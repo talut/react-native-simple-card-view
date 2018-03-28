@@ -2,7 +2,9 @@
 
 <p align="center"><img src="https://s9.postimg.org/748niqban/card_View_With_Icon.png" alt="CardViewWithImage" /></p>
 
-  | Özellik | Tip | Varsayılan | Açıklama | Platform |
+ #### Öznitellikler
+
+ | Özellik | Tip | Varsayılan | Açıklama | Platform |
   |---|---|---|---|---|
   |**`iosIcon`**|`string`| ios-bonfire-outline | IOS simge eklemek için kullanılır : [ionicons](https://ionicframework.com/docs/ionicons/) |iOS|
   |**`androidIcon`**|`string`| md-bonfire | Android simge eklemek için kullanılır : [ionicons](https://ionicframework.com/docs/ionicons/) |Android|

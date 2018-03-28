@@ -6,7 +6,7 @@
 </a>
 </p>
 
-#### Attributes
+#### Öznitellikler
 
   | Özellik | Tip | Varsayılan | Açıklama | Platform | Gerekli mi? |
   |---|---|---|---|---|---|
