@@ -12,7 +12,6 @@
 
   | Prop | Type | Default | Description | Platform | Required |
   |---|---|---|---|---|---|
-  |**`width`**|`number or string`| `300` | CardView width (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`onPress`**|`func`| - | onPress function |iOS,Android| No |
 
 #### Examples
