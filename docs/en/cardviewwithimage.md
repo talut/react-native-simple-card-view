@@ -12,7 +12,7 @@
   |---|---|---|---|---|---|
   |**`width`**|`number or string`| `300` | CardView width (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`imageWidth`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
-  |**`imageHeight`**|`number or string`| `100` | Image width (for full width you should set `'100%'`) |iOS,Android| Yes |
+  |**`imageHeight`**|`number or string`| `100` | Image height (for full width you should set `'100%'`) |iOS,Android| Yes |
   |**`roundedImage`**|`bool`| `true` | If you set false image will be square |iOS,Android| No|
   |**`roundedImageValue`**|`number`| `50` | If you want your image rounded first set roundedImage "true" after give a number value this attr. |iOS,Android| No|
   |**`imageMargin`**|`object`| - | You can set image **margin** with this. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
@@ -23,10 +23,10 @@
   |**`titleTextAlign`**|`string`| - | Component title text align |iOS,Android| No|
   |**`titleFontWeight`**|`string`| - | Component title font weight |iOS,Android| No|
   |**`titleFontSize`**|`number`| - | Component title font size|iOS,Android| No|
+   |**`titleFontFamily`**|`string`| `"sans-serif"` | Card view title font family |iOS,Android|
+ |**`titleLineHeight`**|`number`| - | Component title text line height |iOS,Android| No|
   |**`titlePadding`**|`object`| - | You can set title **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
   |**`titleMargin`**|`object`| - | You can set title **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
-  |**`titleLineHeight`**|`number`| - | Component title text line height |iOS,Android| No|
-  |**`titleFontFamily`**|`string`| - | Card view title font family |iOS,Android|
   |**`content`**|`string`| - | Content text |iOS,Android| No|
   |**`contentFontWeight`**|`string`| - | Component content font weight |iOS,Android| No|
   |**`contentFontSize`**|`string`| - | Component content font size |iOS,Android| No|
