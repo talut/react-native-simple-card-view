@@ -16,32 +16,38 @@
   |**`roundedImage`**|`bool`| `true` | Eğer `false` yaparsanız görsel kare olur. |iOS,Android| Hayır |
   |**`roundedImageValue`**|`number`| `50` | Eğer görseli oval dairesel istiyorsanız ilk olarak `roundedImage` özelliğini `true` yapmalısınız. Daha sonra istediğiniz bir değeri girerek görsele ovallik verebilirsiniz. |iOS,Android| Hayır|
   |**`imageMargin`**|`object`| - | Görsel **margin** vermek için. Bu obje `top`,  `bottom`, `right`, `left` bu key:değer'e sahip olmalı |iOS,Android| Hayır|
-  |**`source`**|`object`| - | You can add your source like [React_Native Image Component Documents](https://facebook.github.io/react-native/docs/image.html#source). Also, if you use imageComponent you can remove this |iOS,Android| If you're not using imageComponent |
-  |**`buttonComponent`**|`object`| - | You can place your own button component for showing a button |iOS,Android| No|
-  |**`imageComponent`**|`object`| - | You can place your own image component (Fast-image etc.) but if you use this, our embedded styling not work. |iOS,Android| No|
-  |**`title`**|`string`| - | Component title |iOS,Android| No|
-  |**`titleTextAlign`**|`string`| - | Component title text align |iOS,Android| No|
-  |**`titleFontWeight`**|`string`| - | Component title font weight |iOS,Android| No|
-  |**`titleFontSize`**|`number`| - | Component title font size|iOS,Android| No|
-  |**`titlePadding`**|`object`| - | You can set title **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
-  |**`titleMargin`**|`object`| - | You can set title **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
-  |**`titleLineHeight`**|`number`| - | Component title text line height |iOS,Android| No|
-  |**`content`**|`string`| - | Content text |iOS,Android| No|
-  |**`contentFontWeight`**|`string`| - | Component content font weight |iOS,Android| No|
-  |**`contentFontSize`**|`string`| - | Component content font size |iOS,Android| No|
-  |**`contentTextAlign`**|`string`| - | Component content text align |iOS,Android| No|
-  |**`contentPadding`**|`object`| - | You can set content **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
-  |**`contentMargin`**|`object`| - | You can set content **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| No|
-  |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| No|
+  |**`source`**|`object`| - | Görsel kaynağınnı React Native dokümantasyonunda ki gibi ekleyebilirsiniz. [React Native Görsel Bileşen Dokümantasyonu](https://facebook.github.io/react-native/docs/image.html#source). Also, if you use imageComponent you can remove this |iOS,Android| If you're not using imageComponent |
+  |**`buttonComponent`**|`object`| - | You can place your own button component for showing a button |iOS,Android| Hayır|
+  |**`imageComponent`**|`object`| - | You can place your own image component (Fast-image etc.) but if you use this, our embedded styling not work. |iOS,Android| Hayır|
+  |**`title`**|`string`| - | CardView başlığı |iOS,Android|
+  |**`titleTextAlign`**|`string`| center | CardView başlığı hizalama |iOS,Android|
+  |**`titleFontWeight`**|`string`| bold | CardView başlık yazı kalınlığı |iOS,Android|
+  |**`titleFontSize`**|`number`| 14 | CardView başlık yazı boyutu |iOS,Android|
+  |**`titleFontFamily`**|`string`| - | Card view başlık yazı tipi ailesi |iOS,Android| Hayır|
+  |**`titlePadding`**|`object`| - | Başlık**padding** değer objesi. Bu obje `top`,  `bottom`, `right`, `left` key'lerine sahip değerler içermelidir.|iOS,Android| Hayır|
+  |**`titleMargin`**|`object`| - | You can set title **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| Hayır|
+  |**`titleLineHeight`**|`number`| - | Component title text line height |iOS,Android| Hayır|
+  |**`content`**|`string`| - | Content text |iOS,Android| Hayır|
+  |**`contentFontWeight`**|`string`| 300 | CardView içerik metni yazı kalınlığı  |iOS,Android| Hayır|
+  |**`contentFontSize`**|`number`| 12 | CardView içerik yazı boyutu |iOS,Android|Hayır|
+  |**`contentTextAlign`**|`string`| justify | CardView içerik metni hizalaması |iOS,Android| Hayır|
+  |**`contentPadding`**|`object`| - | You can set content **padding** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| Hayır|
+  |**`contentMargin`**|`object`| - | You can set content **margin** with this object. This object requires `top`,  `bottom`, `right`, `left`|iOS,Android| Hayır|
+  |**`contentLineHeight`**|`number`| - | Component content text line height |iOS,Android| Hayır|
+  |**`onPress`**|`func`| - | onPress fonksiyonu (Tıklama durumunda olacaklar içindir.) |iOS,Android| Hayır|
+  |**`contentFontFamily`**|`string`| - | Card view içerik yazı tipi ailesi |iOS,Android| Hayır|
 
 
-#### Examples
+
+
+
+#### Örnekler
 
 ```jsx
 import { CardViewWithImage } from 'react-native-simple-card-view'
 ```
 
-**Simple Full Width Image Example**
+**Örnek tam genişliğe sahip görsel kartı**
 
 ```jsx
     <CardViewWithImage
@@ -55,7 +61,7 @@ import { CardViewWithImage } from 'react-native-simple-card-view'
     />
 ```
 
-**Rounded Image Example**
+**Dairesel Görsel Örneği**
 
 ```jsx
     <CardViewWithImage
@@ -71,7 +77,7 @@ import { CardViewWithImage } from 'react-native-simple-card-view'
     />
 ```
 
-**onPress Example**
+**onPress Fonksiyon Örneği**
 
 ```jsx
     <CardViewWithImage
@@ -81,7 +87,7 @@ import { CardViewWithImage } from 'react-native-simple-card-view'
         title={ 'Hello World!' }
         imageWidth={ 100 }
         imageHeight={ 100 }
-        onPress={() => console.log("CardViewWithImage Clicked!")}
+        onPress={() => console.log("CardViewWithImage Tıklandı!")}
         roundedImage={ true }
         roundedImageValue={ 50 }
         imageMargin={ {top: 10} }
